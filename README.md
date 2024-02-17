@@ -1,27 +1,33 @@
 # SampleStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+This is a sample store project with spartacus for study porpuses
 
-## Development server
+## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Running Verdaccio
 
-## Code scaffolding
+The first step is run the verdaccio fake npm registry
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm run verdaccio
+```
 
-## Build
+This is need because new versions of spartacus need a sap account to access or be builded from source.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Install and Run
 
-## Running unit tests
+The next step is intall the dependencies, open a new terminal and run the following command
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm i
+```
 
-## Running end-to-end tests
+After This you can run `npm run start` or `npm run dev:ssr` to start the project
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Sites
 
-## Further help
+After run the project acces any of the following sites:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Powertools (B2B)](http://localhost:9002/powertools-spa)
+- [Apparel UK (B2C)](http://localhost:9002/apparel-uk-spa)
+- [Electronics (B2C)](http://localhost:9002/electronics-spa)
