@@ -4,6 +4,14 @@ This is a sample store project with spartacus for study porpuses
 
 ## Setup
 
+### Prerequisites
+
+- **Angular CLI**: Version **15.2.4** is the minimum required. The most recent **15.x version is strongly recommended**. Version 16 and higher is not supported.
+
+- **Node.js**: Version **16.13.0** or a newer **16.x** version, or else version **18.10.0** or a newer **18.x** version. Node.js 14.20 and newer 14.x versions are supported by Angular 15, but are no longer supported by SAP Commerce Cloud hosting services.
+
+- **Npm**: Version **8.0** or newer.
+
 ### Running Verdaccio
 
 The first step is run the verdaccio fake npm registry
