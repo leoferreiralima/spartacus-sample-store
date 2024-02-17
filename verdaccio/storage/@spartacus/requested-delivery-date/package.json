@@ -1,0 +1,240 @@
+{
+	"name": "@spartacus/requested-delivery-date",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/requested-delivery-date",
+			"version": "6.5.0",
+			"description": "Requested Delivery Date library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"requested-delivery-date"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-requested-delivery-date.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-requested-delivery-date-assets.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-assets.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-assets.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-assets.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-assets.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-requested-delivery-date-core.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-core.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-core.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-core.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-core.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-requested-delivery-date-occ.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-occ.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-occ.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-occ.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-requested-delivery-date-root.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-root.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-root.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-root.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/checkout": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/order": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-requested-delivery-date.mjs",
+			"es2020": "fesm2020/spartacus-requested-delivery-date.mjs",
+			"esm2020": "esm2020/spartacus-requested-delivery-date.mjs",
+			"fesm2020": "fesm2020/spartacus-requested-delivery-date.mjs",
+			"fesm2015": "fesm2015/spartacus-requested-delivery-date.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/requested-delivery-date@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-KO9zzdS50C/ZOfW+S1CvDSJZPzX2TqK/JEkTBh4eO43UiHEz865yerde6Cn/eW2yvwF0tYsU6ja+GULAhW1BWA==",
+				"shasum": "22f1d1a27cd19e13013b54a5802d5bfc4e7c818e",
+				"tarball": "http://localhost:4873/@spartacus/requested-delivery-date/-/@spartacus/requested-delivery-date-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/requested-delivery-date",
+			"version": "6.8.0",
+			"description": "Requested Delivery Date library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"requested-delivery-date"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-requested-delivery-date.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-requested-delivery-date-assets.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-assets.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-assets.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-assets.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-assets.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-requested-delivery-date-core.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-core.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-core.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-core.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-core.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-requested-delivery-date-occ.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-occ.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-occ.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-occ.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-requested-delivery-date-root.mjs",
+					"es2020": "./fesm2020/spartacus-requested-delivery-date-root.mjs",
+					"es2015": "./fesm2015/spartacus-requested-delivery-date-root.mjs",
+					"node": "./fesm2015/spartacus-requested-delivery-date-root.mjs",
+					"default": "./fesm2020/spartacus-requested-delivery-date-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/checkout": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/order": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-requested-delivery-date.mjs",
+			"es2020": "fesm2020/spartacus-requested-delivery-date.mjs",
+			"esm2020": "esm2020/spartacus-requested-delivery-date.mjs",
+			"fesm2020": "fesm2020/spartacus-requested-delivery-date.mjs",
+			"fesm2015": "fesm2015/spartacus-requested-delivery-date.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/requested-delivery-date@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-bcoUJgpSgtpLS27LQx1ImnEUKQrU8l+ZM6LCkrCfEUTsaIgdufOnLB5m41jNIH+FFSRZyp+1vX8DkcdQ5Fn7wA==",
+				"shasum": "cbea7137b0be138d05854028dd556c04ba7de52f",
+				"tarball": "http://localhost:4873/@spartacus/requested-delivery-date/-/@spartacus/requested-delivery-date-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:13:53.709Z",
+		"created": "2024-02-16T22:53:45.786Z",
+		"6.5.0": "2024-02-16T22:53:45.786Z",
+		"6.8.0": "2024-02-17T16:13:53.709Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"requested-delivery-date-6.5.0.tgz": {
+			"shasum": "22f1d1a27cd19e13013b54a5802d5bfc4e7c818e",
+			"version": "6.5.0"
+		},
+		"requested-delivery-date-6.8.0.tgz": {
+			"shasum": "cbea7137b0be138d05854028dd556c04ba7de52f",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-f2f30a006f0ec458",
+	"_id": "@spartacus/requested-delivery-date",
+	"readme": "# Requested Delivery Date\n\nRequested Delivery Date allows customers to provide a delivery date for which the item would be needed. The minimum date would be fetched from the S/4 HANA system and used along with the Order.\n"
+}

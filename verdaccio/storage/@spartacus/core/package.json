@@ -1,0 +1,172 @@
+{
+	"name": "@spartacus/core",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/core",
+			"version": "6.5.0",
+			"description": "Spartacus - the core framework",
+			"keywords": [
+				"spartacus",
+				"storefront",
+				"angular",
+				"framework"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/platform-browser": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/router-store": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"angular-oauth2-oidc": "^15.0.1",
+				"i18next": "^21.10.0",
+				"i18next-http-backend": "^1.4.5",
+				"i18next-resources-to-backend": "^1.1.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-core.mjs",
+			"es2020": "fesm2020/spartacus-core.mjs",
+			"esm2020": "esm2020/spartacus-core.mjs",
+			"fesm2020": "fesm2020/spartacus-core.mjs",
+			"fesm2015": "fesm2015/spartacus-core.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-core.mjs",
+					"es2020": "./fesm2020/spartacus-core.mjs",
+					"es2015": "./fesm2015/spartacus-core.mjs",
+					"node": "./fesm2015/spartacus-core.mjs",
+					"default": "./fesm2020/spartacus-core.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/core@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-8O7JVtfRJ80Yjsrm8cs2XgU1t2+ODFSncf392aU4Q1foatLgTU5dsFrvTt+XxvIlwPx9HjDLFGpYGvvlbpgRqg==",
+				"shasum": "95b290286f14487dd52df4e06ea106c9c9c20961",
+				"tarball": "http://localhost:4873/@spartacus/core/-/@spartacus/core-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/core",
+			"version": "6.8.0",
+			"description": "Spartacus - the core framework",
+			"keywords": [
+				"spartacus",
+				"storefront",
+				"angular",
+				"framework"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/platform-browser": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/router-store": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"angular-oauth2-oidc": "^15.0.1",
+				"i18next": "^21.10.0",
+				"i18next-http-backend": "^1.4.5",
+				"i18next-resources-to-backend": "^1.1.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-core.mjs",
+			"es2020": "fesm2020/spartacus-core.mjs",
+			"esm2020": "esm2020/spartacus-core.mjs",
+			"fesm2020": "fesm2020/spartacus-core.mjs",
+			"fesm2015": "fesm2015/spartacus-core.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-core.mjs",
+					"es2020": "./fesm2020/spartacus-core.mjs",
+					"es2015": "./fesm2015/spartacus-core.mjs",
+					"node": "./fesm2015/spartacus-core.mjs",
+					"default": "./fesm2020/spartacus-core.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/core@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-0rsXvFD9Fh/oUM21FWGLbqP/bRy5fCtErIIr/V9iVWhDQrJBFNwLaBZXCk/RBVxS6D3OQDfRWK03XJ4slb7Ifw==",
+				"shasum": "fb3b786d1ce0e9be4c7b3a3f343404ebb470e9c4",
+				"tarball": "http://localhost:4873/@spartacus/core/-/@spartacus/core-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:12:33.038Z",
+		"created": "2024-02-16T22:51:48.430Z",
+		"6.5.0": "2024-02-16T22:51:48.430Z",
+		"6.8.0": "2024-02-17T16:12:33.038Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"core-6.5.0.tgz": {
+			"shasum": "95b290286f14487dd52df4e06ea106c9c9c20961",
+			"version": "6.5.0"
+		},
+		"core-6.8.0.tgz": {
+			"shasum": "fb3b786d1ce0e9be4c7b3a3f343404ebb470e9c4",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-1905f1e4ec177c73",
+	"_id": "@spartacus/core",
+	"readme": "# Spartacus Core Library\n\nThe Spartacus Core Library provides core Spartacus features, which are a required building block for other Spartacus libraries.\n\nTo quickly add Spartacus libraries to an Angular application, you can use Spartacus schematics: `ng add @spartacus/schematics`. This will setup and install Spartacus libraries to your Angular project. Please check the [official Spartacus schematics documentation](https://sap.github.io/spartacus-docs/schematics/) for all the prerequisites and instruction on how to use Spartacus schematics.\n"
+}

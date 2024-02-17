@@ -1,0 +1,272 @@
+{
+	"name": "@spartacus/epd-visualization",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/epd-visualization",
+			"version": "6.5.0",
+			"description": "SAP Enterprise Product Development Visualization integration library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"epd-visualization",
+				"2d",
+				"3d",
+				"visual",
+				"spare",
+				"part",
+				"picking",
+				"epd"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-epd-visualization.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-epd-visualization-assets.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-assets.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-assets.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-assets.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-epd-visualization-components.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-components.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-components.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-components.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-epd-visualization-core.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-core.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-core.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-core.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-core.mjs"
+				},
+				"./epd-visualization-api": {
+					"types": "./epd-visualization-api/index.d.ts",
+					"esm2020": "./esm2020/epd-visualization-api/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-epd-visualization-api.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-epd-visualization-root.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-root.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-root.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-root.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@sapui5/ts-types-esm": "1.108.14",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"bootstrap": "^4.6.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-epd-visualization.mjs",
+			"es2020": "fesm2020/spartacus-epd-visualization.mjs",
+			"esm2020": "esm2020/spartacus-epd-visualization.mjs",
+			"fesm2020": "fesm2020/spartacus-epd-visualization.mjs",
+			"fesm2015": "fesm2015/spartacus-epd-visualization.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/epd-visualization@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-sTr1RdDZasXf95dm1xf3ND/lm6mPwRirw+b3rsG0l8HLf7Jdll1e84ajhJP1Tn3Wkb7QAjuidixo4pJnW+3jZw==",
+				"shasum": "2dcc70d827412b5d303b9662fbb3750a2e3451be",
+				"tarball": "http://localhost:4873/@spartacus/epd-visualization/-/@spartacus/epd-visualization-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/epd-visualization",
+			"version": "6.8.0",
+			"description": "SAP Enterprise Product Development Visualization integration library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"epd-visualization",
+				"2d",
+				"3d",
+				"visual",
+				"spare",
+				"part",
+				"picking",
+				"epd"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-epd-visualization.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-epd-visualization-assets.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-assets.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-assets.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-assets.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-epd-visualization-components.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-components.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-components.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-components.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-epd-visualization-core.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-core.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-core.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-core.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-core.mjs"
+				},
+				"./epd-visualization-api": {
+					"types": "./epd-visualization-api/index.d.ts",
+					"esm2020": "./esm2020/epd-visualization-api/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-epd-visualization-api.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-epd-visualization-api.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-epd-visualization-root.mjs",
+					"es2020": "./fesm2020/spartacus-epd-visualization-root.mjs",
+					"es2015": "./fesm2015/spartacus-epd-visualization-root.mjs",
+					"node": "./fesm2015/spartacus-epd-visualization-root.mjs",
+					"default": "./fesm2020/spartacus-epd-visualization-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@sapui5/ts-types-esm": "1.120.1",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"bootstrap": "^4.6.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-epd-visualization.mjs",
+			"es2020": "fesm2020/spartacus-epd-visualization.mjs",
+			"esm2020": "esm2020/spartacus-epd-visualization.mjs",
+			"fesm2020": "fesm2020/spartacus-epd-visualization.mjs",
+			"fesm2015": "fesm2015/spartacus-epd-visualization.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/epd-visualization@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-kkl6Rs2LdmVjCSPb3suyoMnj+f0mT34RTuLRu+tXygQ+1PQqmbjF8eUl/i4M04XWS02tcjzVuSWp67SeYGTdKQ==",
+				"shasum": "3cb5f8e624ac26828c61000ee475f8f3412e76b1",
+				"tarball": "http://localhost:4873/@spartacus/epd-visualization/-/@spartacus/epd-visualization-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:12:56.469Z",
+		"created": "2024-02-16T22:52:11.155Z",
+		"6.5.0": "2024-02-16T22:52:11.155Z",
+		"6.8.0": "2024-02-17T16:12:56.469Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"epd-visualization-6.5.0.tgz": {
+			"shasum": "2dcc70d827412b5d303b9662fbb3750a2e3451be",
+			"version": "6.5.0"
+		},
+		"epd-visualization-6.8.0.tgz": {
+			"shasum": "3cb5f8e624ac26828c61000ee475f8f3412e76b1",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-3f7cad41b97b0892",
+	"_id": "@spartacus/epd-visualization",
+	"readme": "# SAP Enterprise Product Development Visualization integration\n\nThis library provides capabilities for viewing 2D and 3D content served from the SAP Enterprise Product Development Visualization services:\n<https://www.sap.com/sea/products/enterprise-product-development.html>.\n\nTo add sample data for this integration library, please update your SAP Commerce Cloud installation to include the `epdvisualizationspartacussampledata` extension which can be found here:\n<https://github.tools.sap/cx-commerce/epdvisualizationspartacussampledata>\n\nThis integration library can be added to the existing Spartacus application by running `ng add @spartacus/schematics@latest` and including the `EPD Visualization Integration` module.\n\nUse the following to use the sample data created the `epdvisualizationspartacussampledata` extension:\n`ng add @spartacus/schematics@latest --base-site powertools-epdvisualization-spa`\n\nFor more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nThe `epdvisualizationspartacussampledata` extension creates the following products in the `powertools-epdvisualization-spa` site which have spare part product references that can be linked to corresponding visualization data:\n\n- VSS_CX704\n- VSS_CX704_2D\n"
+}

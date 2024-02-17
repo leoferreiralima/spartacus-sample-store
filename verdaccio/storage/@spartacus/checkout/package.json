@@ -1,0 +1,440 @@
+{
+	"name": "@spartacus/checkout",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/checkout",
+			"version": "6.5.0",
+			"description": "Checkout feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"checkout"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-checkout.mjs",
+					"es2020": "./fesm2020/spartacus-checkout.mjs",
+					"es2015": "./fesm2015/spartacus-checkout.mjs",
+					"node": "./fesm2015/spartacus-checkout.mjs",
+					"default": "./fesm2020/spartacus-checkout.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./b2b/assets": {
+					"types": "./b2b/assets/index.d.ts",
+					"esm2020": "./esm2020/b2b/assets/spartacus-checkout-b2b-assets.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-assets.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-assets.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-assets.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-assets.mjs"
+				},
+				"./b2b/components": {
+					"types": "./b2b/components/index.d.ts",
+					"esm2020": "./esm2020/b2b/components/spartacus-checkout-b2b-components.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-components.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-components.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-components.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-components.mjs"
+				},
+				"./b2b/core": {
+					"types": "./b2b/core/index.d.ts",
+					"esm2020": "./esm2020/b2b/core/spartacus-checkout-b2b-core.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-core.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-core.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-core.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-core.mjs"
+				},
+				"./b2b": {
+					"types": "./b2b/index.d.ts",
+					"esm2020": "./esm2020/b2b/spartacus-checkout-b2b.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b.mjs"
+				},
+				"./b2b/occ": {
+					"types": "./b2b/occ/index.d.ts",
+					"esm2020": "./esm2020/b2b/occ/spartacus-checkout-b2b-occ.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-occ.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-occ.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-occ.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-occ.mjs"
+				},
+				"./b2b/root": {
+					"types": "./b2b/root/index.d.ts",
+					"esm2020": "./esm2020/b2b/root/spartacus-checkout-b2b-root.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-root.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-root.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-root.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-root.mjs"
+				},
+				"./base/assets": {
+					"types": "./base/assets/index.d.ts",
+					"esm2020": "./esm2020/base/assets/spartacus-checkout-base-assets.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-assets.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-assets.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-assets.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-assets.mjs"
+				},
+				"./base/components": {
+					"types": "./base/components/index.d.ts",
+					"esm2020": "./esm2020/base/components/spartacus-checkout-base-components.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-components.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-components.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-components.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-components.mjs"
+				},
+				"./base/core": {
+					"types": "./base/core/index.d.ts",
+					"esm2020": "./esm2020/base/core/spartacus-checkout-base-core.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-core.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-core.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-core.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-core.mjs"
+				},
+				"./base": {
+					"types": "./base/index.d.ts",
+					"esm2020": "./esm2020/base/spartacus-checkout-base.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base.mjs",
+					"node": "./fesm2015/spartacus-checkout-base.mjs",
+					"default": "./fesm2020/spartacus-checkout-base.mjs"
+				},
+				"./base/occ": {
+					"types": "./base/occ/index.d.ts",
+					"esm2020": "./esm2020/base/occ/spartacus-checkout-base-occ.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-occ.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-occ.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-occ.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-occ.mjs"
+				},
+				"./base/root": {
+					"types": "./base/root/index.d.ts",
+					"esm2020": "./esm2020/base/root/spartacus-checkout-base-root.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-root.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-root.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-root.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-root.mjs"
+				},
+				"./scheduled-replenishment/assets": {
+					"types": "./scheduled-replenishment/assets/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/assets/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment-assets.mjs"
+				},
+				"./scheduled-replenishment/components": {
+					"types": "./scheduled-replenishment/components/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/components/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment-components.mjs"
+				},
+				"./scheduled-replenishment": {
+					"types": "./scheduled-replenishment/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/spartacus-checkout-scheduled-replenishment.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment.mjs"
+				},
+				"./scheduled-replenishment/root": {
+					"types": "./scheduled-replenishment/root/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/root/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/order": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"@spartacus/user": "6.5.0",
+				"bootstrap": "^4.6.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-checkout.mjs",
+			"es2020": "fesm2020/spartacus-checkout.mjs",
+			"esm2020": "esm2020/spartacus-checkout.mjs",
+			"fesm2020": "fesm2020/spartacus-checkout.mjs",
+			"fesm2015": "fesm2015/spartacus-checkout.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/checkout@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-VZ0n8PTMJ2LQ0vhOjh07brl8bGuETWHKDXEn29XDDxB/pkv3sSh+QS82xegSFY1W8v12J7A9z6pycbyLtnqXvA==",
+				"shasum": "fff50af69264a440451197d8315ca7fe1e54c4ad",
+				"tarball": "http://localhost:4873/@spartacus/checkout/-/@spartacus/checkout-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/checkout",
+			"version": "6.8.0",
+			"description": "Checkout feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"checkout"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-checkout.mjs",
+					"es2020": "./fesm2020/spartacus-checkout.mjs",
+					"es2015": "./fesm2015/spartacus-checkout.mjs",
+					"node": "./fesm2015/spartacus-checkout.mjs",
+					"default": "./fesm2020/spartacus-checkout.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./b2b/assets": {
+					"types": "./b2b/assets/index.d.ts",
+					"esm2020": "./esm2020/b2b/assets/spartacus-checkout-b2b-assets.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-assets.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-assets.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-assets.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-assets.mjs"
+				},
+				"./b2b/components": {
+					"types": "./b2b/components/index.d.ts",
+					"esm2020": "./esm2020/b2b/components/spartacus-checkout-b2b-components.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-components.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-components.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-components.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-components.mjs"
+				},
+				"./b2b/core": {
+					"types": "./b2b/core/index.d.ts",
+					"esm2020": "./esm2020/b2b/core/spartacus-checkout-b2b-core.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-core.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-core.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-core.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-core.mjs"
+				},
+				"./b2b": {
+					"types": "./b2b/index.d.ts",
+					"esm2020": "./esm2020/b2b/spartacus-checkout-b2b.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b.mjs"
+				},
+				"./b2b/occ": {
+					"types": "./b2b/occ/index.d.ts",
+					"esm2020": "./esm2020/b2b/occ/spartacus-checkout-b2b-occ.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-occ.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-occ.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-occ.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-occ.mjs"
+				},
+				"./b2b/root": {
+					"types": "./b2b/root/index.d.ts",
+					"esm2020": "./esm2020/b2b/root/spartacus-checkout-b2b-root.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-b2b-root.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-b2b-root.mjs",
+					"node": "./fesm2015/spartacus-checkout-b2b-root.mjs",
+					"default": "./fesm2020/spartacus-checkout-b2b-root.mjs"
+				},
+				"./base/assets": {
+					"types": "./base/assets/index.d.ts",
+					"esm2020": "./esm2020/base/assets/spartacus-checkout-base-assets.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-assets.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-assets.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-assets.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-assets.mjs"
+				},
+				"./base/components": {
+					"types": "./base/components/index.d.ts",
+					"esm2020": "./esm2020/base/components/spartacus-checkout-base-components.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-components.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-components.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-components.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-components.mjs"
+				},
+				"./base/core": {
+					"types": "./base/core/index.d.ts",
+					"esm2020": "./esm2020/base/core/spartacus-checkout-base-core.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-core.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-core.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-core.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-core.mjs"
+				},
+				"./base": {
+					"types": "./base/index.d.ts",
+					"esm2020": "./esm2020/base/spartacus-checkout-base.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base.mjs",
+					"node": "./fesm2015/spartacus-checkout-base.mjs",
+					"default": "./fesm2020/spartacus-checkout-base.mjs"
+				},
+				"./base/occ": {
+					"types": "./base/occ/index.d.ts",
+					"esm2020": "./esm2020/base/occ/spartacus-checkout-base-occ.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-occ.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-occ.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-occ.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-occ.mjs"
+				},
+				"./base/root": {
+					"types": "./base/root/index.d.ts",
+					"esm2020": "./esm2020/base/root/spartacus-checkout-base-root.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-base-root.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-base-root.mjs",
+					"node": "./fesm2015/spartacus-checkout-base-root.mjs",
+					"default": "./fesm2020/spartacus-checkout-base-root.mjs"
+				},
+				"./scheduled-replenishment/assets": {
+					"types": "./scheduled-replenishment/assets/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/assets/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment-assets.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment-assets.mjs"
+				},
+				"./scheduled-replenishment/components": {
+					"types": "./scheduled-replenishment/components/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/components/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment-components.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment-components.mjs"
+				},
+				"./scheduled-replenishment": {
+					"types": "./scheduled-replenishment/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/spartacus-checkout-scheduled-replenishment.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment.mjs"
+				},
+				"./scheduled-replenishment/root": {
+					"types": "./scheduled-replenishment/root/index.d.ts",
+					"esm2020": "./esm2020/scheduled-replenishment/root/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"es2020": "./fesm2020/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"es2015": "./fesm2015/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"node": "./fesm2015/spartacus-checkout-scheduled-replenishment-root.mjs",
+					"default": "./fesm2020/spartacus-checkout-scheduled-replenishment-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/order": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"@spartacus/user": "6.8.0",
+				"bootstrap": "^4.6.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-checkout.mjs",
+			"es2020": "fesm2020/spartacus-checkout.mjs",
+			"esm2020": "esm2020/spartacus-checkout.mjs",
+			"fesm2020": "fesm2020/spartacus-checkout.mjs",
+			"fesm2015": "fesm2015/spartacus-checkout.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/checkout@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-USLTQtfjVg4aB/Kx1ZvkX2UoQmn+pkUw1dLmDi56dCkTQx4lwG0rFukAQY6Wl4ZRngLOHzEU2H/QGFxBRvk2Zw==",
+				"shasum": "bf1c8d9e97c7f21f0502c3de96510851f517a950",
+				"tarball": "http://localhost:4873/@spartacus/checkout/-/@spartacus/checkout-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:12:10.177Z",
+		"created": "2024-02-16T22:51:31.804Z",
+		"6.5.0": "2024-02-16T22:51:31.804Z",
+		"6.8.0": "2024-02-17T16:12:10.177Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"checkout-6.5.0.tgz": {
+			"shasum": "fff50af69264a440451197d8315ca7fe1e54c4ad",
+			"version": "6.5.0"
+		},
+		"checkout-6.8.0.tgz": {
+			"shasum": "bf1c8d9e97c7f21f0502c3de96510851f517a950",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-dcd652a68875a1eb",
+	"_id": "@spartacus/checkout",
+	"readme": "# Spartacus Checkout Library\n\nSpartacus Checkout feature can be added to the existing Spartacus application by running `ng add @spartacus/checkout`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nFor more information, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}

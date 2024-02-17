@@ -1,0 +1,204 @@
+{
+	"name": "@spartacus/qualtrics",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/qualtrics",
+			"version": "6.5.0",
+			"description": "Qualtrics library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"qualtrics",
+				"personalized",
+				"management"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-qualtrics.mjs",
+					"es2020": "./fesm2020/spartacus-qualtrics.mjs",
+					"es2015": "./fesm2015/spartacus-qualtrics.mjs",
+					"node": "./fesm2015/spartacus-qualtrics.mjs",
+					"default": "./fesm2020/spartacus-qualtrics.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-qualtrics-components.mjs",
+					"es2020": "./fesm2020/spartacus-qualtrics-components.mjs",
+					"es2015": "./fesm2015/spartacus-qualtrics-components.mjs",
+					"node": "./fesm2015/spartacus-qualtrics-components.mjs",
+					"default": "./fesm2020/spartacus-qualtrics-components.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-qualtrics-root.mjs",
+					"es2020": "./fesm2020/spartacus-qualtrics-root.mjs",
+					"es2015": "./fesm2015/spartacus-qualtrics-root.mjs",
+					"node": "./fesm2015/spartacus-qualtrics-root.mjs",
+					"default": "./fesm2020/spartacus-qualtrics-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"bootstrap": "^4.6.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-qualtrics.mjs",
+			"es2020": "fesm2020/spartacus-qualtrics.mjs",
+			"esm2020": "esm2020/spartacus-qualtrics.mjs",
+			"fesm2020": "fesm2020/spartacus-qualtrics.mjs",
+			"fesm2015": "fesm2015/spartacus-qualtrics.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/qualtrics@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-XP9HpWssvsYzqJzuK2v82VzvkBbekRRZznrwTVUPaE+4lN1gsyFbzkD+6Tin+eFtlU7nY923YHCIaLbsHFREwA==",
+				"shasum": "86a6687dd68e5e729a25515bde067246d6f1d4f8",
+				"tarball": "http://localhost:4873/@spartacus/qualtrics/-/@spartacus/qualtrics-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/qualtrics",
+			"version": "6.8.0",
+			"description": "Qualtrics library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"qualtrics",
+				"personalized",
+				"management"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-qualtrics.mjs",
+					"es2020": "./fesm2020/spartacus-qualtrics.mjs",
+					"es2015": "./fesm2015/spartacus-qualtrics.mjs",
+					"node": "./fesm2015/spartacus-qualtrics.mjs",
+					"default": "./fesm2020/spartacus-qualtrics.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-qualtrics-components.mjs",
+					"es2020": "./fesm2020/spartacus-qualtrics-components.mjs",
+					"es2015": "./fesm2015/spartacus-qualtrics-components.mjs",
+					"node": "./fesm2015/spartacus-qualtrics-components.mjs",
+					"default": "./fesm2020/spartacus-qualtrics-components.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-qualtrics-root.mjs",
+					"es2020": "./fesm2020/spartacus-qualtrics-root.mjs",
+					"es2015": "./fesm2015/spartacus-qualtrics-root.mjs",
+					"node": "./fesm2015/spartacus-qualtrics-root.mjs",
+					"default": "./fesm2020/spartacus-qualtrics-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"bootstrap": "^4.6.2",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-qualtrics.mjs",
+			"es2020": "fesm2020/spartacus-qualtrics.mjs",
+			"esm2020": "esm2020/spartacus-qualtrics.mjs",
+			"fesm2020": "fesm2020/spartacus-qualtrics.mjs",
+			"fesm2015": "fesm2015/spartacus-qualtrics.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/qualtrics@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-2YNcFGhIsO45JQ+ljQlRfEBr3eYZBz4pMPi9SUGpoQ5yU2k8rHWjwMgRgszz9WHOIpYS/9es5tf+BhycEEAeSg==",
+				"shasum": "f7543c4bdf612bc128a1328e0e29a557732c084d",
+				"tarball": "http://localhost:4873/@spartacus/qualtrics/-/@spartacus/qualtrics-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:13:48.215Z",
+		"created": "2024-02-16T22:53:37.715Z",
+		"6.5.0": "2024-02-16T22:53:37.715Z",
+		"6.8.0": "2024-02-17T16:13:48.215Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"qualtrics-6.5.0.tgz": {
+			"shasum": "86a6687dd68e5e729a25515bde067246d6f1d4f8",
+			"version": "6.5.0"
+		},
+		"qualtrics-6.8.0.tgz": {
+			"shasum": "f7543c4bdf612bc128a1328e0e29a557732c084d",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-549c8a70258b9a8e",
+	"_id": "@spartacus/qualtrics",
+	"readme": "# Spartacus Qualtrics\n\nQualtrics can be added to the existing Spartacus application by running `ng add @spartacus/qualtrics`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\n\nFor more information about Spartacus, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}

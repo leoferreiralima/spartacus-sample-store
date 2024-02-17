@@ -1,0 +1,130 @@
+{
+	"name": "@spartacus/assets",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/assets",
+			"version": "6.5.0",
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-assets.mjs",
+			"es2020": "fesm2020/spartacus-assets.mjs",
+			"esm2020": "esm2020/spartacus-assets.mjs",
+			"fesm2020": "fesm2020/spartacus-assets.mjs",
+			"fesm2015": "fesm2015/spartacus-assets.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-assets.mjs",
+					"es2020": "./fesm2020/spartacus-assets.mjs",
+					"es2015": "./fesm2015/spartacus-assets.mjs",
+					"node": "./fesm2015/spartacus-assets.mjs",
+					"default": "./fesm2020/spartacus-assets.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"description": "Assets library provides static resources for i18n, fonts, icons, etc. Example usage:",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/assets@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-CVKlX7Jl7IwDv+OxV7dx6nERM6x1prnv/BaeBkVrufCSeXXM/wUfaMIA5KcFFMUZFI/Bc9NkfmBx/u1F68nD1Q==",
+				"shasum": "03fe6faf6e01e23abba2ad9ae7e7b1bf5381c2bd",
+				"tarball": "http://localhost:4873/@spartacus/assets/-/@spartacus/assets-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/assets",
+			"version": "6.8.0",
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-assets.mjs",
+			"es2020": "fesm2020/spartacus-assets.mjs",
+			"esm2020": "esm2020/spartacus-assets.mjs",
+			"fesm2020": "fesm2020/spartacus-assets.mjs",
+			"fesm2015": "fesm2015/spartacus-assets.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-assets.mjs",
+					"es2020": "./fesm2020/spartacus-assets.mjs",
+					"es2015": "./fesm2015/spartacus-assets.mjs",
+					"node": "./fesm2015/spartacus-assets.mjs",
+					"default": "./fesm2020/spartacus-assets.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"description": "Assets library provides static resources for i18n, fonts, icons, etc. Example usage:",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/assets@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-IB3DMshEgfLmDM6qUil5FOLOCSewu4/kXWN00RBEueLCWL0TBJt8O0x2C5vNAph7twYHaDK7shwMNuKSNHjyrg==",
+				"shasum": "007f54afb24734494172e1e57a03588bf7bf2b2d",
+				"tarball": "http://localhost:4873/@spartacus/assets/-/@spartacus/assets-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:11:27.254Z",
+		"created": "2024-02-16T22:50:54.347Z",
+		"6.5.0": "2024-02-16T22:50:54.347Z",
+		"6.8.0": "2024-02-17T16:11:27.254Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"assets-6.5.0.tgz": {
+			"shasum": "03fe6faf6e01e23abba2ad9ae7e7b1bf5381c2bd",
+			"version": "6.5.0"
+		},
+		"assets-6.8.0.tgz": {
+			"shasum": "007f54afb24734494172e1e57a03588bf7bf2b2d",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-daf3c1777d1c2165",
+	"_id": "@spartacus/assets",
+	"readme": "# Assets\n\nAssets library provides static resources for i18n, fonts, icons, etc. Example usage:\n\n`import { translations } from '@spartacus/assets';`"
+}

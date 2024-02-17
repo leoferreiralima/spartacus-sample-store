@@ -1,0 +1,263 @@
+{
+	"name": "@spartacus/order",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/order",
+			"version": "6.5.0",
+			"description": "Order feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"order"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-order.mjs",
+					"es2020": "./fesm2020/spartacus-order.mjs",
+					"es2015": "./fesm2015/spartacus-order.mjs",
+					"node": "./fesm2015/spartacus-order.mjs",
+					"default": "./fesm2020/spartacus-order.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-order-assets.mjs",
+					"es2020": "./fesm2020/spartacus-order-assets.mjs",
+					"es2015": "./fesm2015/spartacus-order-assets.mjs",
+					"node": "./fesm2015/spartacus-order-assets.mjs",
+					"default": "./fesm2020/spartacus-order-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-order-components.mjs",
+					"es2020": "./fesm2020/spartacus-order-components.mjs",
+					"es2015": "./fesm2015/spartacus-order-components.mjs",
+					"node": "./fesm2015/spartacus-order-components.mjs",
+					"default": "./fesm2020/spartacus-order-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-order-core.mjs",
+					"es2020": "./fesm2020/spartacus-order-core.mjs",
+					"es2015": "./fesm2015/spartacus-order-core.mjs",
+					"node": "./fesm2015/spartacus-order-core.mjs",
+					"default": "./fesm2020/spartacus-order-core.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-order-occ.mjs",
+					"es2020": "./fesm2020/spartacus-order-occ.mjs",
+					"es2015": "./fesm2015/spartacus-order-occ.mjs",
+					"node": "./fesm2015/spartacus-order-occ.mjs",
+					"default": "./fesm2020/spartacus-order-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-order-root.mjs",
+					"es2020": "./fesm2020/spartacus-order-root.mjs",
+					"es2015": "./fesm2015/spartacus-order-root.mjs",
+					"node": "./fesm2015/spartacus-order-root.mjs",
+					"default": "./fesm2020/spartacus-order-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"@spartacus/user": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-order.mjs",
+			"es2020": "fesm2020/spartacus-order.mjs",
+			"esm2020": "esm2020/spartacus-order.mjs",
+			"fesm2020": "fesm2020/spartacus-order.mjs",
+			"fesm2015": "fesm2015/spartacus-order.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/order@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-oQvbl0dm46Udl9p1BjtmjFMTLbGGo6vj9Wmdsj7B2vBD3XUFxA4c/SFI1hc0KlSJJO/EeHsS8+BZdtYW5by3cg==",
+				"shasum": "e1270b6466c1165ec536beb741d2c813eae11dfd",
+				"tarball": "http://localhost:4873/@spartacus/order/-/@spartacus/order-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/order",
+			"version": "6.8.0",
+			"description": "Order feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"order"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-order.mjs",
+					"es2020": "./fesm2020/spartacus-order.mjs",
+					"es2015": "./fesm2015/spartacus-order.mjs",
+					"node": "./fesm2015/spartacus-order.mjs",
+					"default": "./fesm2020/spartacus-order.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-order-assets.mjs",
+					"es2020": "./fesm2020/spartacus-order-assets.mjs",
+					"es2015": "./fesm2015/spartacus-order-assets.mjs",
+					"node": "./fesm2015/spartacus-order-assets.mjs",
+					"default": "./fesm2020/spartacus-order-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-order-components.mjs",
+					"es2020": "./fesm2020/spartacus-order-components.mjs",
+					"es2015": "./fesm2015/spartacus-order-components.mjs",
+					"node": "./fesm2015/spartacus-order-components.mjs",
+					"default": "./fesm2020/spartacus-order-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-order-core.mjs",
+					"es2020": "./fesm2020/spartacus-order-core.mjs",
+					"es2015": "./fesm2015/spartacus-order-core.mjs",
+					"node": "./fesm2015/spartacus-order-core.mjs",
+					"default": "./fesm2020/spartacus-order-core.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-order-occ.mjs",
+					"es2020": "./fesm2020/spartacus-order-occ.mjs",
+					"es2015": "./fesm2015/spartacus-order-occ.mjs",
+					"node": "./fesm2015/spartacus-order-occ.mjs",
+					"default": "./fesm2020/spartacus-order-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-order-root.mjs",
+					"es2020": "./fesm2020/spartacus-order-root.mjs",
+					"es2015": "./fesm2015/spartacus-order-root.mjs",
+					"node": "./fesm2015/spartacus-order-root.mjs",
+					"default": "./fesm2020/spartacus-order-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/pdf-invoices": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"@spartacus/user": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-order.mjs",
+			"es2020": "fesm2020/spartacus-order.mjs",
+			"esm2020": "esm2020/spartacus-order.mjs",
+			"fesm2020": "fesm2020/spartacus-order.mjs",
+			"fesm2015": "fesm2015/spartacus-order.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/order@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-xsQXEiD212L9P0YTD/6y5zP3/kshCdf6Qu9F3vuoXfqvv8at4wuJCR1oFpV3aH0Uo8+LdtkmFMl28WpLEAwNGA==",
+				"shasum": "1f73e19f93e61a0dd2e287a7910a5360a5c57b90",
+				"tarball": "http://localhost:4873/@spartacus/order/-/@spartacus/order-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:13:05.157Z",
+		"created": "2024-02-16T22:52:21.835Z",
+		"6.5.0": "2024-02-16T22:52:21.835Z",
+		"6.8.0": "2024-02-17T16:13:05.157Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"order-6.5.0.tgz": {
+			"shasum": "e1270b6466c1165ec536beb741d2c813eae11dfd",
+			"version": "6.5.0"
+		},
+		"order-6.8.0.tgz": {
+			"shasum": "1f73e19f93e61a0dd2e287a7910a5360a5c57b90",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-b0598f2944ae4a5f",
+	"_id": "@spartacus/order",
+	"readme": "# Spartacus Order Library\n\nSpartacus Order feature can be added to the existing Spartacus application by running `ng add @spartacus/order`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nTo see enhanced UI in Order History and Order Details page in B2C storefront, \n1. Add `{ provide: USE_MY_ACCOUNT_V2_ORDER, useValue: true },` to order-feature.module.ts file `providers` array.\n2. Add `pdf-invoices` feature to the storefront, if not installed already.\n\nFor more information, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}

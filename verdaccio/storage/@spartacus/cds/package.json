@@ -1,0 +1,178 @@
+{
+	"name": "@spartacus/cds",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/cds",
+			"version": "6.5.0",
+			"description": "Context Driven Service library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"merchandising",
+				"segmentation",
+				"context-driven services",
+				"cds"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/order": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/tracking": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./src/schematics/collection.json",
+			"module": "fesm2015/spartacus-cds.mjs",
+			"es2020": "fesm2020/spartacus-cds.mjs",
+			"esm2020": "esm2020/spartacus-cds.mjs",
+			"fesm2020": "fesm2020/spartacus-cds.mjs",
+			"fesm2015": "fesm2015/spartacus-cds.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-cds.mjs",
+					"es2020": "./fesm2020/spartacus-cds.mjs",
+					"es2015": "./fesm2015/spartacus-cds.mjs",
+					"node": "./fesm2015/spartacus-cds.mjs",
+					"default": "./fesm2020/spartacus-cds.mjs"
+				}
+			},
+			"sideEffects": false,
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/cds@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-HNb/uUTD1MdIhZTzbQXI04ZL1afPEGvYDAUgLfb/9rHdeWQjKvkvHyeUio68l5uppl6ysuZ0OioWeQ2gWfZ3ig==",
+				"shasum": "e53fadf390874621e2eda99f70c1b2fb7c9d3b8a",
+				"tarball": "http://localhost:4873/@spartacus/cds/-/@spartacus/cds-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/cds",
+			"version": "6.8.0",
+			"description": "Context Driven Service library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"merchandising",
+				"segmentation",
+				"context-driven services",
+				"cds"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/order": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/tracking": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./src/schematics/collection.json",
+			"module": "fesm2015/spartacus-cds.mjs",
+			"es2020": "fesm2020/spartacus-cds.mjs",
+			"esm2020": "esm2020/spartacus-cds.mjs",
+			"fesm2020": "fesm2020/spartacus-cds.mjs",
+			"fesm2015": "fesm2015/spartacus-cds.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-cds.mjs",
+					"es2020": "./fesm2020/spartacus-cds.mjs",
+					"es2015": "./fesm2015/spartacus-cds.mjs",
+					"node": "./fesm2015/spartacus-cds.mjs",
+					"default": "./fesm2020/spartacus-cds.mjs"
+				}
+			},
+			"sideEffects": false,
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/cds@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-tCPcEVpLZrq37mIkyX0h4j7l3zsZW28sCTZfD4y0f3Zeodto3LUis6Oi72zjwRbHpZ+k30gU8qIYp6VvOdyRdg==",
+				"shasum": "8f0e26099c54e2cc4b1c7e3e473feb726e916399",
+				"tarball": "http://localhost:4873/@spartacus/cds/-/@spartacus/cds-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:11:58.506Z",
+		"created": "2024-02-16T22:51:22.091Z",
+		"6.5.0": "2024-02-16T22:51:22.091Z",
+		"6.8.0": "2024-02-17T16:11:58.506Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"cds-6.5.0.tgz": {
+			"shasum": "e53fadf390874621e2eda99f70c1b2fb7c9d3b8a",
+			"version": "6.5.0"
+		},
+		"cds-6.8.0.tgz": {
+			"shasum": "8f0e26099c54e2cc4b1c7e3e473feb726e916399",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-9f7a9a2c6e1758bc",
+	"_id": "@spartacus/cds",
+	"readme": "ERROR: No README data found!"
+}

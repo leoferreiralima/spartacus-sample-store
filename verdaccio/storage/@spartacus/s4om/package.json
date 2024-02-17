@@ -1,0 +1,204 @@
+{
+	"name": "@spartacus/s4om",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/s4om",
+			"version": "6.5.0",
+			"description": "S/4HANA Order Management (b2b feature)",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"s4om"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/pdf-invoices": "6.5.0",
+				"@spartacus/requested-delivery-date": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-s4om.mjs",
+			"es2020": "fesm2020/spartacus-s4om.mjs",
+			"esm2020": "esm2020/spartacus-s4om.mjs",
+			"fesm2020": "fesm2020/spartacus-s4om.mjs",
+			"fesm2015": "fesm2015/spartacus-s4om.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-s4om.mjs",
+					"es2020": "./fesm2020/spartacus-s4om.mjs",
+					"es2015": "./fesm2015/spartacus-s4om.mjs",
+					"node": "./fesm2015/spartacus-s4om.mjs",
+					"default": "./fesm2020/spartacus-s4om.mjs"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-s4om-assets.mjs",
+					"es2020": "./fesm2020/spartacus-s4om-assets.mjs",
+					"es2015": "./fesm2015/spartacus-s4om-assets.mjs",
+					"node": "./fesm2015/spartacus-s4om-assets.mjs",
+					"default": "./fesm2020/spartacus-s4om-assets.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-s4om-root.mjs",
+					"es2020": "./fesm2020/spartacus-s4om-root.mjs",
+					"es2015": "./fesm2015/spartacus-s4om-root.mjs",
+					"node": "./fesm2015/spartacus-s4om-root.mjs",
+					"default": "./fesm2020/spartacus-s4om-root.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/s4om@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-2Eo4bIAkfqMUv34epwp6Js7cRL3Q1K/rHpoRbWpVln2IKlBCPM3HWzrOwmQwszZsgvWom6F09eQxKvmmOCzMiQ==",
+				"shasum": "eade5d123a4abc8e9ddc3239670f6c06a45daedf",
+				"tarball": "http://localhost:4873/@spartacus/s4om/-/@spartacus/s4om-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/s4om",
+			"version": "6.8.0",
+			"description": "S/4HANA Order Management (b2b feature)",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"s4om"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/pdf-invoices": "6.8.0",
+				"@spartacus/requested-delivery-date": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-s4om.mjs",
+			"es2020": "fesm2020/spartacus-s4om.mjs",
+			"esm2020": "esm2020/spartacus-s4om.mjs",
+			"fesm2020": "fesm2020/spartacus-s4om.mjs",
+			"fesm2015": "fesm2015/spartacus-s4om.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-s4om.mjs",
+					"es2020": "./fesm2020/spartacus-s4om.mjs",
+					"es2015": "./fesm2015/spartacus-s4om.mjs",
+					"node": "./fesm2015/spartacus-s4om.mjs",
+					"default": "./fesm2020/spartacus-s4om.mjs"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-s4om-assets.mjs",
+					"es2020": "./fesm2020/spartacus-s4om-assets.mjs",
+					"es2015": "./fesm2015/spartacus-s4om-assets.mjs",
+					"node": "./fesm2015/spartacus-s4om-assets.mjs",
+					"default": "./fesm2020/spartacus-s4om-assets.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-s4om-root.mjs",
+					"es2020": "./fesm2020/spartacus-s4om-root.mjs",
+					"es2015": "./fesm2015/spartacus-s4om-root.mjs",
+					"node": "./fesm2015/spartacus-s4om-root.mjs",
+					"default": "./fesm2020/spartacus-s4om-root.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/s4om@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-FM6Ldap+oKXZH4VzKkCc3xIbmCZbz3AyjOx9Ar41cVTGSSw80VVat15ZGpLpRmTgpZMu+NCSS00JPorBk66aXw==",
+				"shasum": "f62c023b374fd2ceea2af188a09821940cfcd4b6",
+				"tarball": "http://localhost:4873/@spartacus/s4om/-/@spartacus/s4om-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:13:59.015Z",
+		"created": "2024-02-16T22:53:53.700Z",
+		"6.5.0": "2024-02-16T22:53:53.700Z",
+		"6.8.0": "2024-02-17T16:13:59.015Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"s4om-6.5.0.tgz": {
+			"shasum": "eade5d123a4abc8e9ddc3239670f6c06a45daedf",
+			"version": "6.5.0"
+		},
+		"s4om-6.8.0.tgz": {
+			"shasum": "f62c023b374fd2ceea2af188a09821940cfcd4b6",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-148757a4bf060fd6",
+	"_id": "@spartacus/s4om",
+	"readme": "# S/4 HANA Synchronous Order Management\n\nThis library provides S/4 HANA Synchronous Order Management capabilities to Spartacus UI.\n\n\nThe features supported are:\n- Schedule Lines: Display a table of scheduled delivery dates and product quantity for each item in the B2B Cart using information from S/4 HANA system.\n\n\n- Requested Delivery Date: Allow customers to provide a delivery date for which the item would be needed. The minimum date would be fetched from the S/4 HANA system and used along with the Order.\n\n- PDF Invoices: View invoices for their orders and download PDF invoices using `Invoices` APIs. When the user selects an invoice, the backend returns a byte array, which is converted to PDF and downloaded.\n\n\n"
+}

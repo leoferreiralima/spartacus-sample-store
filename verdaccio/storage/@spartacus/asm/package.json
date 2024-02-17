@@ -1,0 +1,310 @@
+{
+	"name": "@spartacus/asm",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/asm",
+			"version": "6.5.0",
+			"description": "ASM feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"asm"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-asm.mjs",
+					"es2020": "./fesm2020/spartacus-asm.mjs",
+					"es2015": "./fesm2015/spartacus-asm.mjs",
+					"node": "./fesm2015/spartacus-asm.mjs",
+					"default": "./fesm2020/spartacus-asm.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-asm-assets.mjs",
+					"es2020": "./fesm2020/spartacus-asm-assets.mjs",
+					"es2015": "./fesm2015/spartacus-asm-assets.mjs",
+					"node": "./fesm2015/spartacus-asm-assets.mjs",
+					"default": "./fesm2020/spartacus-asm-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-asm-components.mjs",
+					"es2020": "./fesm2020/spartacus-asm-components.mjs",
+					"es2015": "./fesm2015/spartacus-asm-components.mjs",
+					"node": "./fesm2015/spartacus-asm-components.mjs",
+					"default": "./fesm2020/spartacus-asm-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-asm-core.mjs",
+					"es2020": "./fesm2020/spartacus-asm-core.mjs",
+					"es2015": "./fesm2015/spartacus-asm-core.mjs",
+					"node": "./fesm2015/spartacus-asm-core.mjs",
+					"default": "./fesm2020/spartacus-asm-core.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-asm-occ.mjs",
+					"es2020": "./fesm2020/spartacus-asm-occ.mjs",
+					"es2015": "./fesm2015/spartacus-asm-occ.mjs",
+					"node": "./fesm2015/spartacus-asm-occ.mjs",
+					"default": "./fesm2020/spartacus-asm-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-asm-root.mjs",
+					"es2020": "./fesm2020/spartacus-asm-root.mjs",
+					"es2015": "./fesm2015/spartacus-asm-root.mjs",
+					"node": "./fesm2015/spartacus-asm-root.mjs",
+					"default": "./fesm2020/spartacus-asm-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"@spartacus/user": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-asm.mjs",
+			"es2020": "fesm2020/spartacus-asm.mjs",
+			"esm2020": "esm2020/spartacus-asm.mjs",
+			"fesm2020": "fesm2020/spartacus-asm.mjs",
+			"fesm2015": "fesm2015/spartacus-asm.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/asm@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-XOxUKpxj1hO+QNoU4oDURIETkkUMvugMhTLZY+/nk+P2yh/eMZGQ4JxmR+iOt0AemhNX499CJzCd/BqeLJNibg==",
+				"shasum": "c033cbaed1ff77062ddaf80f58325c1b7e354ccf",
+				"tarball": "http://localhost:4873/@spartacus/asm/-/@spartacus/asm-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/asm",
+			"version": "6.8.0",
+			"description": "ASM feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"asm"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-asm.mjs",
+					"es2020": "./fesm2020/spartacus-asm.mjs",
+					"es2015": "./fesm2015/spartacus-asm.mjs",
+					"node": "./fesm2015/spartacus-asm.mjs",
+					"default": "./fesm2020/spartacus-asm.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-asm-assets.mjs",
+					"es2020": "./fesm2020/spartacus-asm-assets.mjs",
+					"es2015": "./fesm2015/spartacus-asm-assets.mjs",
+					"node": "./fesm2015/spartacus-asm-assets.mjs",
+					"default": "./fesm2020/spartacus-asm-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-asm-components.mjs",
+					"es2020": "./fesm2020/spartacus-asm-components.mjs",
+					"es2015": "./fesm2015/spartacus-asm-components.mjs",
+					"node": "./fesm2015/spartacus-asm-components.mjs",
+					"default": "./fesm2020/spartacus-asm-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-asm-core.mjs",
+					"es2020": "./fesm2020/spartacus-asm-core.mjs",
+					"es2015": "./fesm2015/spartacus-asm-core.mjs",
+					"node": "./fesm2015/spartacus-asm-core.mjs",
+					"default": "./fesm2020/spartacus-asm-core.mjs"
+				},
+				"./customer-360/assets": {
+					"types": "./customer-360/assets/index.d.ts",
+					"esm2020": "./esm2020/customer-360/assets/spartacus-asm-customer-360-assets.mjs",
+					"es2020": "./fesm2020/spartacus-asm-customer-360-assets.mjs",
+					"es2015": "./fesm2015/spartacus-asm-customer-360-assets.mjs",
+					"node": "./fesm2015/spartacus-asm-customer-360-assets.mjs",
+					"default": "./fesm2020/spartacus-asm-customer-360-assets.mjs"
+				},
+				"./customer-360/components": {
+					"types": "./customer-360/components/index.d.ts",
+					"esm2020": "./esm2020/customer-360/components/spartacus-asm-customer-360-components.mjs",
+					"es2020": "./fesm2020/spartacus-asm-customer-360-components.mjs",
+					"es2015": "./fesm2015/spartacus-asm-customer-360-components.mjs",
+					"node": "./fesm2015/spartacus-asm-customer-360-components.mjs",
+					"default": "./fesm2020/spartacus-asm-customer-360-components.mjs"
+				},
+				"./customer-360/core": {
+					"types": "./customer-360/core/index.d.ts",
+					"esm2020": "./esm2020/customer-360/core/spartacus-asm-customer-360-core.mjs",
+					"es2020": "./fesm2020/spartacus-asm-customer-360-core.mjs",
+					"es2015": "./fesm2015/spartacus-asm-customer-360-core.mjs",
+					"node": "./fesm2015/spartacus-asm-customer-360-core.mjs",
+					"default": "./fesm2020/spartacus-asm-customer-360-core.mjs"
+				},
+				"./customer-360": {
+					"types": "./customer-360/index.d.ts",
+					"esm2020": "./esm2020/customer-360/spartacus-asm-customer-360.mjs",
+					"es2020": "./fesm2020/spartacus-asm-customer-360.mjs",
+					"es2015": "./fesm2015/spartacus-asm-customer-360.mjs",
+					"node": "./fesm2015/spartacus-asm-customer-360.mjs",
+					"default": "./fesm2020/spartacus-asm-customer-360.mjs"
+				},
+				"./customer-360/occ": {
+					"types": "./customer-360/occ/index.d.ts",
+					"esm2020": "./esm2020/customer-360/occ/spartacus-asm-customer-360-occ.mjs",
+					"es2020": "./fesm2020/spartacus-asm-customer-360-occ.mjs",
+					"es2015": "./fesm2015/spartacus-asm-customer-360-occ.mjs",
+					"node": "./fesm2015/spartacus-asm-customer-360-occ.mjs",
+					"default": "./fesm2020/spartacus-asm-customer-360-occ.mjs"
+				},
+				"./customer-360/root": {
+					"types": "./customer-360/root/index.d.ts",
+					"esm2020": "./esm2020/customer-360/root/spartacus-asm-customer-360-root.mjs",
+					"es2020": "./fesm2020/spartacus-asm-customer-360-root.mjs",
+					"es2015": "./fesm2015/spartacus-asm-customer-360-root.mjs",
+					"node": "./fesm2015/spartacus-asm-customer-360-root.mjs",
+					"default": "./fesm2020/spartacus-asm-customer-360-root.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-asm-occ.mjs",
+					"es2020": "./fesm2020/spartacus-asm-occ.mjs",
+					"es2015": "./fesm2015/spartacus-asm-occ.mjs",
+					"node": "./fesm2015/spartacus-asm-occ.mjs",
+					"default": "./fesm2020/spartacus-asm-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-asm-root.mjs",
+					"es2020": "./fesm2020/spartacus-asm-root.mjs",
+					"es2015": "./fesm2015/spartacus-asm-root.mjs",
+					"node": "./fesm2015/spartacus-asm-root.mjs",
+					"default": "./fesm2020/spartacus-asm-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/order": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefinder": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"@spartacus/user": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-asm.mjs",
+			"es2020": "fesm2020/spartacus-asm.mjs",
+			"esm2020": "esm2020/spartacus-asm.mjs",
+			"fesm2020": "fesm2020/spartacus-asm.mjs",
+			"fesm2015": "fesm2015/spartacus-asm.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/asm@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-a05bTNWmvuKd0rUTUQ0Z7K3BH1twTXcQO8w8UNICDx7xIbF6m1em/iIKnxPk4/DJattYOIAJAfS+S7KKNc1TTw==",
+				"shasum": "6673b60dde9a48225cff78885b25bb24802b16a6",
+				"tarball": "http://localhost:4873/@spartacus/asm/-/@spartacus/asm-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:11:19.140Z",
+		"created": "2024-02-16T22:50:47.572Z",
+		"6.5.0": "2024-02-16T22:50:47.572Z",
+		"6.8.0": "2024-02-17T16:11:19.140Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"asm-6.5.0.tgz": {
+			"shasum": "c033cbaed1ff77062ddaf80f58325c1b7e354ccf",
+			"version": "6.5.0"
+		},
+		"asm-6.8.0.tgz": {
+			"shasum": "6673b60dde9a48225cff78885b25bb24802b16a6",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-1f32b60f1db36935",
+	"_id": "@spartacus/asm",
+	"readme": "# Spartacus ASM Library\n\nSpartacus ASM can be added to the existing Spartacus application by running `ng add @spartacus/asm`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nFor more information, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}

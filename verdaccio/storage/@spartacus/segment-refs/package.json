@@ -1,0 +1,178 @@
+{
+	"name": "@spartacus/segment-refs",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/segment-refs",
+			"version": "6.5.0",
+			"description": "segment-refs",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"segment"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-segment-refs.mjs",
+			"es2020": "fesm2020/spartacus-segment-refs.mjs",
+			"esm2020": "esm2020/spartacus-segment-refs.mjs",
+			"fesm2020": "fesm2020/spartacus-segment-refs.mjs",
+			"fesm2015": "fesm2015/spartacus-segment-refs.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-segment-refs.mjs",
+					"es2020": "./fesm2020/spartacus-segment-refs.mjs",
+					"es2015": "./fesm2015/spartacus-segment-refs.mjs",
+					"node": "./fesm2015/spartacus-segment-refs.mjs",
+					"default": "./fesm2020/spartacus-segment-refs.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-segment-refs-root.mjs",
+					"es2020": "./fesm2020/spartacus-segment-refs-root.mjs",
+					"es2015": "./fesm2015/spartacus-segment-refs-root.mjs",
+					"node": "./fesm2015/spartacus-segment-refs-root.mjs",
+					"default": "./fesm2020/spartacus-segment-refs-root.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/segment-refs@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-v9QaPpMphBlgxQVfs5VxY+cdkczimCjjUmXuwr2jTrnWmCDBwg7Py2Mr/BlnQQw7SB+meExgPpqrPRtzuFF6XQ==",
+				"shasum": "745241f6564ab2971daf0cee8aef36f75e168216",
+				"tarball": "http://localhost:4873/@spartacus/segment-refs/-/@spartacus/segment-refs-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/segment-refs",
+			"version": "6.8.0",
+			"description": "segment-refs",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"segment"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-segment-refs.mjs",
+			"es2020": "fesm2020/spartacus-segment-refs.mjs",
+			"esm2020": "esm2020/spartacus-segment-refs.mjs",
+			"fesm2020": "fesm2020/spartacus-segment-refs.mjs",
+			"fesm2015": "fesm2015/spartacus-segment-refs.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-segment-refs.mjs",
+					"es2020": "./fesm2020/spartacus-segment-refs.mjs",
+					"es2015": "./fesm2015/spartacus-segment-refs.mjs",
+					"node": "./fesm2015/spartacus-segment-refs.mjs",
+					"default": "./fesm2020/spartacus-segment-refs.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-segment-refs-root.mjs",
+					"es2020": "./fesm2020/spartacus-segment-refs-root.mjs",
+					"es2015": "./fesm2015/spartacus-segment-refs-root.mjs",
+					"node": "./fesm2015/spartacus-segment-refs-root.mjs",
+					"default": "./fesm2020/spartacus-segment-refs-root.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/segment-refs@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-FFTGPVCHWZCqP9a/pqzJDQ53d3uojvuq1masyOa/vfnEeMCg7l9dEkr+z5hEpy1CumteWyjTukY/S4p5fI8dPA==",
+				"shasum": "1c2b52c245a96586c48d5053b5b51fceff9b6454",
+				"tarball": "http://localhost:4873/@spartacus/segment-refs/-/@spartacus/segment-refs-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:14:07.158Z",
+		"created": "2024-02-16T22:54:01.377Z",
+		"6.5.0": "2024-02-16T22:54:01.377Z",
+		"6.8.0": "2024-02-17T16:14:07.158Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"segment-refs-6.5.0.tgz": {
+			"shasum": "745241f6564ab2971daf0cee8aef36f75e168216",
+			"version": "6.5.0"
+		},
+		"segment-refs-6.8.0.tgz": {
+			"shasum": "1c2b52c245a96586c48d5053b5b51fceff9b6454",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-286b4b1ff776e373",
+	"_id": "@spartacus/segment-refs",
+	"readme": "# Spartacus Segment Reference Integration\n\nSpartacus' Segment Reference library is an enhancement to Personalization library. Spartacus' Segment Reference library enables external system (Emarsys) segmentation based personalisation capabilities into Spartacus storefront\n\nIt can be added to the existing Spartacus application by running `ng add @spartacus/segment-refs`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nFor more information, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}

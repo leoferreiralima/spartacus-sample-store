@@ -1,0 +1,192 @@
+{
+	"name": "@spartacus/digital-payments",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/digital-payments",
+			"version": "6.5.0",
+			"description": "Digital Payments Integration library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"digital payments",
+				"payments"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/checkout": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-digital-payments.mjs",
+			"es2020": "fesm2020/spartacus-digital-payments.mjs",
+			"esm2020": "esm2020/spartacus-digital-payments.mjs",
+			"fesm2020": "fesm2020/spartacus-digital-payments.mjs",
+			"fesm2015": "fesm2015/spartacus-digital-payments.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-digital-payments.mjs",
+					"es2020": "./fesm2020/spartacus-digital-payments.mjs",
+					"es2015": "./fesm2015/spartacus-digital-payments.mjs",
+					"node": "./fesm2015/spartacus-digital-payments.mjs",
+					"default": "./fesm2020/spartacus-digital-payments.mjs"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-digital-payments-assets.mjs",
+					"es2020": "./fesm2020/spartacus-digital-payments-assets.mjs",
+					"es2015": "./fesm2015/spartacus-digital-payments-assets.mjs",
+					"node": "./fesm2015/spartacus-digital-payments-assets.mjs",
+					"default": "./fesm2020/spartacus-digital-payments-assets.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/digital-payments@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-aiwzZPxlAx3iRuLgOTt+zToo9BMeEuyY81ux4dWgZDgU97c1ajHsOmLUGn4jjB25ZPh01GsUmj1Tl3bSgBUXVQ==",
+				"shasum": "0ac47674d783fc411d8875721a5cb33151192792",
+				"tarball": "http://localhost:4873/@spartacus/digital-payments/-/@spartacus/digital-payments-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/digital-payments",
+			"version": "6.8.0",
+			"description": "Digital Payments Integration library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"digital payments",
+				"payments"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/checkout": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-digital-payments.mjs",
+			"es2020": "fesm2020/spartacus-digital-payments.mjs",
+			"esm2020": "esm2020/spartacus-digital-payments.mjs",
+			"fesm2020": "fesm2020/spartacus-digital-payments.mjs",
+			"fesm2015": "fesm2015/spartacus-digital-payments.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-digital-payments.mjs",
+					"es2020": "./fesm2020/spartacus-digital-payments.mjs",
+					"es2015": "./fesm2015/spartacus-digital-payments.mjs",
+					"node": "./fesm2015/spartacus-digital-payments.mjs",
+					"default": "./fesm2020/spartacus-digital-payments.mjs"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-digital-payments-assets.mjs",
+					"es2020": "./fesm2020/spartacus-digital-payments-assets.mjs",
+					"es2015": "./fesm2015/spartacus-digital-payments-assets.mjs",
+					"node": "./fesm2015/spartacus-digital-payments-assets.mjs",
+					"default": "./fesm2020/spartacus-digital-payments-assets.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/digital-payments@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-7RqJtdInzLw6+6Rb7bDe4B4/vVZfrF9/xRxijbcDi3zxNhEaOHqlwWWlCBX63Z6YCJyCf4BdGrgn7CVVIcd3XQ==",
+				"shasum": "5fc2f9e54c7d68d7c5d31f2e91c6a14c113a18d3",
+				"tarball": "http://localhost:4873/@spartacus/digital-payments/-/@spartacus/digital-payments-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:12:48.530Z",
+		"created": "2024-02-16T22:52:03.344Z",
+		"6.5.0": "2024-02-16T22:52:03.344Z",
+		"6.8.0": "2024-02-17T16:12:48.530Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"digital-payments-6.5.0.tgz": {
+			"shasum": "0ac47674d783fc411d8875721a5cb33151192792",
+			"version": "6.5.0"
+		},
+		"digital-payments-6.8.0.tgz": {
+			"shasum": "5fc2f9e54c7d68d7c5d31f2e91c6a14c113a18d3",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-6940f41d9777138e",
+	"_id": "@spartacus/digital-payments",
+	"readme": "# Spartacus Digital-Payments integration\n\nSpartacus' Digital-Payments library integrates SAP Digital payments with ready-to-use payment service provider connectivity into Spartacus storefront.\n\nIt can be added to the existing Spartacus application by running `ng add @spartacus/digital-payments`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nFor more information, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}

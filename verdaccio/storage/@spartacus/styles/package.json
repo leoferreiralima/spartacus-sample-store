@@ -1,0 +1,124 @@
+{
+	"name": "@spartacus/styles",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/styles",
+			"version": "6.5.0",
+			"description": "Style library containing global styles",
+			"keywords": [
+				"spartacus",
+				"storefront",
+				"styles"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"scripts": {
+				"test": "C:/www/opensource/spartacus/node_modules/.bin/jest --config ./jest.schematics.config.js"
+			},
+			"dependencies": {
+				"hamburgers": "^1.2.1"
+			},
+			"devDependencies": {},
+			"peerDependencies": {
+				"@fontsource/open-sans": "^4.5.14",
+				"@fortawesome/fontawesome-free": "6.4.2",
+				"@ng-select/ng-select": "^10.0.3",
+				"bootstrap": "^4.6.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"sass": "./_index.scss",
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/styles@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-lx5suEQLy9JpSZIYDt6XY9siEuiR1UDO9+354to/mHSFnUVwiXud/KGO1ovlYsUunlyDNvrdcxBHJM33gd3rYQ==",
+				"shasum": "da72ec7ee5bd04026d838a4b45d32cdb392ad000",
+				"tarball": "http://localhost:4873/@spartacus/styles/-/@spartacus/styles-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/styles",
+			"version": "6.8.0",
+			"description": "Style library containing global styles",
+			"keywords": [
+				"spartacus",
+				"storefront",
+				"styles"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"scripts": {
+				"test": "C:/www/opensource/spartacus/node_modules/.bin/jest --config ./jest.schematics.config.js"
+			},
+			"dependencies": {
+				"hamburgers": "^1.2.1"
+			},
+			"devDependencies": {},
+			"peerDependencies": {
+				"@fontsource/open-sans": "^4.5.14",
+				"@fortawesome/fontawesome-free": "6.5.1",
+				"@ng-select/ng-select": "^10.0.3",
+				"bootstrap": "^4.6.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"sass": "./_index.scss",
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/styles@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-TbryfPI6fLpU2WUxHSAHLz74FF5qGzY40Ky4DWwHILNiGI5EfxZ/Av5vzFgUwBdDe6G/9EgrSgcKxi0N2SVgQA==",
+				"shasum": "7512a4219126be20af32c16dfc7ddfe3b1ea0338",
+				"tarball": "http://localhost:4873/@spartacus/styles/-/@spartacus/styles-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:10:49.501Z",
+		"created": "2024-02-16T22:50:20.633Z",
+		"6.5.0": "2024-02-16T22:50:20.633Z",
+		"6.8.0": "2024-02-17T16:10:49.501Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"styles-6.5.0.tgz": {
+			"shasum": "da72ec7ee5bd04026d838a4b45d32cdb392ad000",
+			"version": "6.5.0"
+		},
+		"styles-6.8.0.tgz": {
+			"shasum": "7512a4219126be20af32c16dfc7ddfe3b1ea0338",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-49a25a4f06762e60",
+	"_id": "@spartacus/styles",
+	"readme": "# Spartacus Styles\n\nSpartacus Styles is a styling library that provides global styling and theming to the [Spartacus Storefront](https://www.npmjs.com/package/@spartacus/storefront).\n\nThe package should be used together with the Spartacus Storefront to build an eCommerce platform using SAP Commerce Cloud exclusively through the Commerce REST API.\n\nFor more informations, see [Spartacus](https://github.com/SAP/spartacus).\n\n#### Related projects\n\n[Spartacus Storefront](https://www.npmjs.com/package/@spartacus/storefront)\n"
+}

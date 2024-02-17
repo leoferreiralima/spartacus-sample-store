@@ -1,0 +1,250 @@
+{
+	"name": "@spartacus/pdf-invoices",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/pdf-invoices",
+			"version": "6.5.0",
+			"description": "Invoices library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"pdf-invoices"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-pdf-invoices.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-pdf-invoices-assets.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-assets.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-assets.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-assets.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-pdf-invoices-components.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-components.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-components.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-components.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-pdf-invoices-core.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-core.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-core.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-core.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-core.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-pdf-invoices-occ.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-occ.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-occ.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-occ.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-pdf-invoices-root.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-root.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-root.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-root.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/styles": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-pdf-invoices.mjs",
+			"es2020": "fesm2020/spartacus-pdf-invoices.mjs",
+			"esm2020": "esm2020/spartacus-pdf-invoices.mjs",
+			"fesm2020": "fesm2020/spartacus-pdf-invoices.mjs",
+			"fesm2015": "fesm2015/spartacus-pdf-invoices.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/pdf-invoices@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-WvMCMQtycahNwddX4+rin+8Qtx67Y40lDQRSYyVw+e5qTLIqMbr7Pc0Jx6KAFpyxEv4xPlYJLFVhjPBPakMh+A==",
+				"shasum": "328f2e181856bef846d4b4da5adaa0d7ed895b3f",
+				"tarball": "http://localhost:4873/@spartacus/pdf-invoices/-/@spartacus/pdf-invoices-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/pdf-invoices",
+			"version": "6.8.0",
+			"description": "Invoices library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"pdf-invoices"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"exports": {
+				".": {
+					"sass": "./_index.scss",
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-pdf-invoices.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices.mjs"
+				},
+				"./package.json": {
+					"default": "./package.json"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-pdf-invoices-assets.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-assets.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-assets.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-assets.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-pdf-invoices-components.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-components.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-components.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-components.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-pdf-invoices-core.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-core.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-core.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-core.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-core.mjs"
+				},
+				"./occ": {
+					"types": "./occ/index.d.ts",
+					"esm2020": "./esm2020/occ/spartacus-pdf-invoices-occ.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-occ.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-occ.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-occ.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-occ.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-pdf-invoices-root.mjs",
+					"es2020": "./fesm2020/spartacus-pdf-invoices-root.mjs",
+					"es2015": "./fesm2015/spartacus-pdf-invoices-root.mjs",
+					"node": "./fesm2015/spartacus-pdf-invoices-root.mjs",
+					"default": "./fesm2020/spartacus-pdf-invoices-root.mjs"
+				}
+			},
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/styles": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-pdf-invoices.mjs",
+			"es2020": "fesm2020/spartacus-pdf-invoices.mjs",
+			"esm2020": "esm2020/spartacus-pdf-invoices.mjs",
+			"fesm2020": "fesm2020/spartacus-pdf-invoices.mjs",
+			"fesm2015": "fesm2015/spartacus-pdf-invoices.mjs",
+			"typings": "index.d.ts",
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/pdf-invoices@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-C0vg1s5wUAyD6holt+4OLM5QXcDsflJuXqCU8RwkGGd9dv8aUglVwJodShzKh6F1sAQ3jeJSZSMdvG49u10Uwg==",
+				"shasum": "4cf4bf228b7ab38db7082108a786188f3aef26b5",
+				"tarball": "http://localhost:4873/@spartacus/pdf-invoices/-/@spartacus/pdf-invoices-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:13:22.085Z",
+		"created": "2024-02-16T22:52:53.195Z",
+		"6.5.0": "2024-02-16T22:52:53.195Z",
+		"6.8.0": "2024-02-17T16:13:22.085Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"pdf-invoices-6.5.0.tgz": {
+			"shasum": "328f2e181856bef846d4b4da5adaa0d7ed895b3f",
+			"version": "6.5.0"
+		},
+		"pdf-invoices-6.8.0.tgz": {
+			"shasum": "4cf4bf228b7ab38db7082108a786188f3aef26b5",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-090ef1d0de63bd64",
+	"_id": "@spartacus/pdf-invoices",
+	"readme": "# PDF Invoices\n\nThis feature allows users to view invoices for their orders and download PDF invoices using `Invoices` APIs.\nWhen the user selects an invoice, the backend returns a byte array, which is converted to PDF and downloaded."
+}

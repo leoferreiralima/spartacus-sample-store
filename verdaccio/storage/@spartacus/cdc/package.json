@@ -1,0 +1,312 @@
+{
+	"name": "@spartacus/cdc",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/cdc",
+			"version": "6.5.0",
+			"description": "Customer Data Cloud Integration library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"customer data cloud",
+				"gigya",
+				"cdc"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/asm": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/organization": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"@spartacus/storefront": "6.5.0",
+				"@spartacus/user": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-cdc.mjs",
+			"es2020": "fesm2020/spartacus-cdc.mjs",
+			"esm2020": "esm2020/spartacus-cdc.mjs",
+			"fesm2020": "fesm2020/spartacus-cdc.mjs",
+			"fesm2015": "fesm2015/spartacus-cdc.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-cdc.mjs",
+					"es2020": "./fesm2020/spartacus-cdc.mjs",
+					"es2015": "./fesm2015/spartacus-cdc.mjs",
+					"node": "./fesm2015/spartacus-cdc.mjs",
+					"default": "./fesm2020/spartacus-cdc.mjs"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-cdc-assets.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-assets.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-assets.mjs",
+					"node": "./fesm2015/spartacus-cdc-assets.mjs",
+					"default": "./fesm2020/spartacus-cdc-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-cdc-components.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-components.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-components.mjs",
+					"node": "./fesm2015/spartacus-cdc-components.mjs",
+					"default": "./fesm2020/spartacus-cdc-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-cdc-core.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-core.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-core.mjs",
+					"node": "./fesm2015/spartacus-cdc-core.mjs",
+					"default": "./fesm2020/spartacus-cdc-core.mjs"
+				},
+				"./organization/administration": {
+					"types": "./organization/administration/index.d.ts",
+					"esm2020": "./esm2020/organization/administration/spartacus-cdc-organization-administration.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-organization-administration.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-organization-administration.mjs",
+					"node": "./fesm2015/spartacus-cdc-organization-administration.mjs",
+					"default": "./fesm2020/spartacus-cdc-organization-administration.mjs"
+				},
+				"./organization/user-registration": {
+					"types": "./organization/user-registration/index.d.ts",
+					"esm2020": "./esm2020/organization/user-registration/spartacus-cdc-organization-user-registration.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-organization-user-registration.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-organization-user-registration.mjs",
+					"node": "./fesm2015/spartacus-cdc-organization-user-registration.mjs",
+					"default": "./fesm2020/spartacus-cdc-organization-user-registration.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-cdc-root.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-root.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-root.mjs",
+					"node": "./fesm2015/spartacus-cdc-root.mjs",
+					"default": "./fesm2020/spartacus-cdc-root.mjs"
+				},
+				"./user-account": {
+					"types": "./user-account/index.d.ts",
+					"esm2020": "./esm2020/user-account/spartacus-cdc-user-account.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-user-account.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-user-account.mjs",
+					"node": "./fesm2015/spartacus-cdc-user-account.mjs",
+					"default": "./fesm2020/spartacus-cdc-user-account.mjs"
+				},
+				"./user-profile": {
+					"types": "./user-profile/index.d.ts",
+					"esm2020": "./esm2020/user-profile/spartacus-cdc-user-profile.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-user-profile.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-user-profile.mjs",
+					"node": "./fesm2015/spartacus-cdc-user-profile.mjs",
+					"default": "./fesm2020/spartacus-cdc-user-profile.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/cdc@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-9A9OQEbT8LeEEhTyOul+z1qP61MbI1axR6Esb9V5oII8hqlCkBdHE/LbUX/4fkqNlUJN1EQq67cuwUOyMfc//g==",
+				"shasum": "88bd4f67d02ca916ecc2396bc1b24cfb4a020a2e",
+				"tarball": "http://localhost:4873/@spartacus/cdc/-/@spartacus/cdc-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/cdc",
+			"version": "6.8.0",
+			"description": "Customer Data Cloud Integration library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"customer data cloud",
+				"gigya",
+				"cdc"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/asm": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/organization": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"@spartacus/storefront": "6.8.0",
+				"@spartacus/user": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-cdc.mjs",
+			"es2020": "fesm2020/spartacus-cdc.mjs",
+			"esm2020": "esm2020/spartacus-cdc.mjs",
+			"fesm2020": "fesm2020/spartacus-cdc.mjs",
+			"fesm2015": "fesm2015/spartacus-cdc.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-cdc.mjs",
+					"es2020": "./fesm2020/spartacus-cdc.mjs",
+					"es2015": "./fesm2015/spartacus-cdc.mjs",
+					"node": "./fesm2015/spartacus-cdc.mjs",
+					"default": "./fesm2020/spartacus-cdc.mjs"
+				},
+				"./assets": {
+					"types": "./assets/index.d.ts",
+					"esm2020": "./esm2020/assets/spartacus-cdc-assets.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-assets.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-assets.mjs",
+					"node": "./fesm2015/spartacus-cdc-assets.mjs",
+					"default": "./fesm2020/spartacus-cdc-assets.mjs"
+				},
+				"./components": {
+					"types": "./components/index.d.ts",
+					"esm2020": "./esm2020/components/spartacus-cdc-components.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-components.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-components.mjs",
+					"node": "./fesm2015/spartacus-cdc-components.mjs",
+					"default": "./fesm2020/spartacus-cdc-components.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-cdc-core.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-core.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-core.mjs",
+					"node": "./fesm2015/spartacus-cdc-core.mjs",
+					"default": "./fesm2020/spartacus-cdc-core.mjs"
+				},
+				"./organization/administration": {
+					"types": "./organization/administration/index.d.ts",
+					"esm2020": "./esm2020/organization/administration/spartacus-cdc-organization-administration.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-organization-administration.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-organization-administration.mjs",
+					"node": "./fesm2015/spartacus-cdc-organization-administration.mjs",
+					"default": "./fesm2020/spartacus-cdc-organization-administration.mjs"
+				},
+				"./organization/user-registration": {
+					"types": "./organization/user-registration/index.d.ts",
+					"esm2020": "./esm2020/organization/user-registration/spartacus-cdc-organization-user-registration.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-organization-user-registration.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-organization-user-registration.mjs",
+					"node": "./fesm2015/spartacus-cdc-organization-user-registration.mjs",
+					"default": "./fesm2020/spartacus-cdc-organization-user-registration.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-cdc-root.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-root.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-root.mjs",
+					"node": "./fesm2015/spartacus-cdc-root.mjs",
+					"default": "./fesm2020/spartacus-cdc-root.mjs"
+				},
+				"./user-account": {
+					"types": "./user-account/index.d.ts",
+					"esm2020": "./esm2020/user-account/spartacus-cdc-user-account.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-user-account.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-user-account.mjs",
+					"node": "./fesm2015/spartacus-cdc-user-account.mjs",
+					"default": "./fesm2020/spartacus-cdc-user-account.mjs"
+				},
+				"./user-profile": {
+					"types": "./user-profile/index.d.ts",
+					"esm2020": "./esm2020/user-profile/spartacus-cdc-user-profile.mjs",
+					"es2020": "./fesm2020/spartacus-cdc-user-profile.mjs",
+					"es2015": "./fesm2015/spartacus-cdc-user-profile.mjs",
+					"node": "./fesm2015/spartacus-cdc-user-profile.mjs",
+					"default": "./fesm2020/spartacus-cdc-user-profile.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/cdc@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-gU2EUuGQ3cjS/EA0eIwdiJClLWLjxs78PqS1RkrSSsrYoi38F91HxTAP7rUr8RuvPF+rMjNftZ7aqmxsGEWMOA==",
+				"shasum": "592fe3a594f60640ca829db5f4d261ccbdba4736",
+				"tarball": "http://localhost:4873/@spartacus/cdc/-/@spartacus/cdc-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:11:50.989Z",
+		"created": "2024-02-16T22:51:14.079Z",
+		"6.5.0": "2024-02-16T22:51:14.079Z",
+		"6.8.0": "2024-02-17T16:11:50.989Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"cdc-6.5.0.tgz": {
+			"shasum": "88bd4f67d02ca916ecc2396bc1b24cfb4a020a2e",
+			"version": "6.5.0"
+		},
+		"cdc-6.8.0.tgz": {
+			"shasum": "592fe3a594f60640ca829db5f4d261ccbdba4736",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-3df0c09ea51d30b1",
+	"_id": "@spartacus/cdc",
+	"readme": "# Spartacus CDC integration\n\nSpartacus' CDC library integrates SAP Customer Data Cloud for enhanced identity management capabilities into Spartacus storefront.\n\nIt can be added to the existing Spartacus application by running `ng add @spartacus/cdc`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nFor more information, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}

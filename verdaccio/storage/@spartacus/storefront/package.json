@@ -1,0 +1,172 @@
+{
+	"name": "@spartacus/storefront",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/storefront",
+			"version": "6.5.0",
+			"keywords": [
+				"spartacus",
+				"storefront",
+				"angular"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/platform-browser": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@angular/service-worker": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/router-store": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/core": "6.5.0",
+				"ngx-infinite-scroll": "^15.0.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-storefront.mjs",
+			"es2020": "fesm2020/spartacus-storefront.mjs",
+			"esm2020": "esm2020/spartacus-storefront.mjs",
+			"fesm2020": "fesm2020/spartacus-storefront.mjs",
+			"fesm2015": "fesm2015/spartacus-storefront.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-storefront.mjs",
+					"es2020": "./fesm2020/spartacus-storefront.mjs",
+					"es2015": "./fesm2015/spartacus-storefront.mjs",
+					"node": "./fesm2015/spartacus-storefront.mjs",
+					"default": "./fesm2020/spartacus-storefront.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"description": "Spartacus Storefront is a package that you can include in your application, which allows you to add default storefront features.",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/storefront@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-dsStdSbagbp5hxSruDbIqtTuCWd35Gb50644ngd1g17xOL+/4yh2MHLYsbi/Yh6QJLWfQqUm0SnZ4MIN0EAFJA==",
+				"shasum": "deffaefc74fa2f6ddf5eeaf24dac47902132be01",
+				"tarball": "http://localhost:4873/@spartacus/storefront/-/@spartacus/storefront-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/storefront",
+			"version": "6.8.0",
+			"keywords": [
+				"spartacus",
+				"storefront",
+				"angular"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@angular/forms": "^15.2.9",
+				"@angular/platform-browser": "^15.2.9",
+				"@angular/router": "^15.2.9",
+				"@angular/service-worker": "^15.2.9",
+				"@ng-select/ng-select": "^10.0.3",
+				"@ngrx/effects": "^15.3.0",
+				"@ngrx/router-store": "^15.3.0",
+				"@ngrx/store": "^15.3.0",
+				"@spartacus/core": "6.8.0",
+				"ngx-infinite-scroll": "^15.0.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-storefront.mjs",
+			"es2020": "fesm2020/spartacus-storefront.mjs",
+			"esm2020": "esm2020/spartacus-storefront.mjs",
+			"fesm2020": "fesm2020/spartacus-storefront.mjs",
+			"fesm2015": "fesm2015/spartacus-storefront.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-storefront.mjs",
+					"es2020": "./fesm2020/spartacus-storefront.mjs",
+					"es2015": "./fesm2015/spartacus-storefront.mjs",
+					"node": "./fesm2015/spartacus-storefront.mjs",
+					"default": "./fesm2020/spartacus-storefront.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"description": "Spartacus Storefront is a package that you can include in your application, which allows you to add default storefront features.",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/storefront@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-tat+g4QtYf0jOazO5KdL+bLphzxN63qLB0YF6GQGyyjEnNSrwEM9CVb+L8kG6Fw6Fnp7a1vaJ0xHtpM9Rnh3Gw==",
+				"shasum": "a5f2363a0e989208a996758e17302eb9220b04cb",
+				"tarball": "http://localhost:4873/@spartacus/storefront/-/@spartacus/storefront-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:14:39.425Z",
+		"created": "2024-02-16T22:54:37.293Z",
+		"6.5.0": "2024-02-16T22:54:37.293Z",
+		"6.8.0": "2024-02-17T16:14:39.425Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"storefront-6.5.0.tgz": {
+			"shasum": "deffaefc74fa2f6ddf5eeaf24dac47902132be01",
+			"version": "6.5.0"
+		},
+		"storefront-6.8.0.tgz": {
+			"shasum": "a5f2363a0e989208a996758e17302eb9220b04cb",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-ea716ebbef215a88",
+	"_id": "@spartacus/storefront",
+	"readme": "# Spartacus Storefront\n\nSpartacus Storefront is a package that you can include in your application, which allows you to add default storefront features.\n\nThe Spartacus Storefront is extendable and upgradable by changing the version of the library you are using. Furthermore, the storefront can be styled by using the [Spartacus Styles](https://www.npmjs.com/package/@spartacus/styles) package.\n\nFor more informations, see [Spartacus](https://github.com/SAP/spartacus).\n\n#### Related projects\n\n[Spartacus Styles](https://www.npmjs.com/package/@spartacus/styles)\n"
+}

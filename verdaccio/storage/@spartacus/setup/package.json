@@ -1,0 +1,192 @@
+{
+	"name": "@spartacus/setup",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/setup",
+			"version": "6.5.0",
+			"description": "Includes features that makes Spartacus and it's setup easier and streamlined.",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"setup",
+				"recipe"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2",
+				"@angular/platform-server": "^15.2.9",
+				"@nguniversal/express-engine": "^15.2.0",
+				"express": "^4.18.2"
+			},
+			"peerDependencies": {
+				"@angular/core": "^15.2.9",
+				"@spartacus/cart": "6.5.0",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/order": "6.5.0",
+				"@spartacus/user": "6.5.0"
+			},
+			"optionalDependencies": {
+				"@angular/platform-server": "^15.2.9",
+				"@nguniversal/express-engine": "^15.2.0",
+				"express": "^4.18.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-setup.mjs",
+			"es2020": "fesm2020/spartacus-setup.mjs",
+			"esm2020": "esm2020/spartacus-setup.mjs",
+			"fesm2020": "fesm2020/spartacus-setup.mjs",
+			"fesm2015": "fesm2015/spartacus-setup.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-setup.mjs",
+					"es2020": "./fesm2020/spartacus-setup.mjs",
+					"es2015": "./fesm2015/spartacus-setup.mjs",
+					"node": "./fesm2015/spartacus-setup.mjs",
+					"default": "./fesm2020/spartacus-setup.mjs"
+				},
+				"./ssr": {
+					"types": "./ssr/index.d.ts",
+					"esm2020": "./esm2020/ssr/spartacus-setup-ssr.mjs",
+					"es2020": "./fesm2020/spartacus-setup-ssr.mjs",
+					"es2015": "./fesm2015/spartacus-setup-ssr.mjs",
+					"node": "./fesm2015/spartacus-setup-ssr.mjs",
+					"default": "./fesm2020/spartacus-setup-ssr.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/setup@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-0O8hZaZv4ZVI65Ci5HqUAB4bKXc/j/NfevFkSZSbaGl98m/YbydeRKSlbN/uv8a4eYuckfoeZGsS8oSVcBpmCg==",
+				"shasum": "7f0b529e25d0378a198968da4aaa3e4812bce683",
+				"tarball": "http://localhost:4873/@spartacus/setup/-/@spartacus/setup-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/setup",
+			"version": "6.8.0",
+			"description": "Includes features that makes Spartacus and it's setup easier and streamlined.",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"setup",
+				"recipe"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2",
+				"@angular/platform-server": "^15.2.9",
+				"@nguniversal/express-engine": "^15.2.0",
+				"express": "^4.18.2"
+			},
+			"peerDependencies": {
+				"@angular/core": "^15.2.9",
+				"@spartacus/cart": "6.8.0",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/order": "6.8.0",
+				"@spartacus/user": "6.8.0"
+			},
+			"optionalDependencies": {
+				"@angular/platform-server": "^15.2.9",
+				"@nguniversal/express-engine": "^15.2.0",
+				"express": "^4.18.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"module": "fesm2015/spartacus-setup.mjs",
+			"es2020": "fesm2020/spartacus-setup.mjs",
+			"esm2020": "esm2020/spartacus-setup.mjs",
+			"fesm2020": "fesm2020/spartacus-setup.mjs",
+			"fesm2015": "fesm2015/spartacus-setup.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-setup.mjs",
+					"es2020": "./fesm2020/spartacus-setup.mjs",
+					"es2015": "./fesm2015/spartacus-setup.mjs",
+					"node": "./fesm2015/spartacus-setup.mjs",
+					"default": "./fesm2020/spartacus-setup.mjs"
+				},
+				"./ssr": {
+					"types": "./ssr/index.d.ts",
+					"esm2020": "./esm2020/ssr/spartacus-setup-ssr.mjs",
+					"es2020": "./fesm2020/spartacus-setup-ssr.mjs",
+					"es2015": "./fesm2015/spartacus-setup-ssr.mjs",
+					"node": "./fesm2015/spartacus-setup-ssr.mjs",
+					"default": "./fesm2020/spartacus-setup-ssr.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/setup@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-KcY4aEjN52D8r6F2rFAmLma8U7YC+5+91yDRV+J0sGpDFvcvexChTYll5peAePk5jPxMaIAOQOWpT71nrNhCVg==",
+				"shasum": "372fb28ae80eaaf02ec9d4dcd262b8f55e1493d1",
+				"tarball": "http://localhost:4873/@spartacus/setup/-/@spartacus/setup-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:14:14.516Z",
+		"created": "2024-02-16T22:54:09.503Z",
+		"6.5.0": "2024-02-16T22:54:09.503Z",
+		"6.8.0": "2024-02-17T16:14:14.516Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"setup-6.5.0.tgz": {
+			"shasum": "7f0b529e25d0378a198968da4aaa3e4812bce683",
+			"version": "6.5.0"
+		},
+		"setup-6.8.0.tgz": {
+			"shasum": "372fb28ae80eaaf02ec9d4dcd262b8f55e1493d1",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-9cbb954391069fee",
+	"_id": "@spartacus/setup",
+	"readme": "# Spartacus Setup\n\nSpartacus Setup includes features that makes Spartacus and it's setup easier and streamlined.\n\nThe library is still under development, main goal is to provide:\n\n- **@spartacus/setup/recipies**: To provide common Spartacus recipes with default module set and configuration \n\n- **@spartacus/setup/schematics**: To provide schematics that will take care configuring different Spartacus feature libraries to work seamlessly together.\n\n\nFor more information please see our [documentation](https://sap.github.io/spartacus-docs/).\n"
+}

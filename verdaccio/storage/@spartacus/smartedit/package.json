@@ -1,0 +1,194 @@
+{
+	"name": "@spartacus/smartedit",
+	"versions": {
+		"6.5.0": {
+			"name": "@spartacus/smartedit",
+			"version": "6.5.0",
+			"description": "Smart Edit feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"smartedit"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/core": "6.5.0",
+				"@spartacus/schematics": "6.5.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-smartedit.mjs",
+			"es2020": "fesm2020/spartacus-smartedit.mjs",
+			"esm2020": "esm2020/spartacus-smartedit.mjs",
+			"fesm2020": "fesm2020/spartacus-smartedit.mjs",
+			"fesm2015": "fesm2015/spartacus-smartedit.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-smartedit.mjs",
+					"es2020": "./fesm2020/spartacus-smartedit.mjs",
+					"es2015": "./fesm2015/spartacus-smartedit.mjs",
+					"node": "./fesm2015/spartacus-smartedit.mjs",
+					"default": "./fesm2020/spartacus-smartedit.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-smartedit-core.mjs",
+					"es2020": "./fesm2020/spartacus-smartedit-core.mjs",
+					"es2015": "./fesm2015/spartacus-smartedit-core.mjs",
+					"node": "./fesm2015/spartacus-smartedit-core.mjs",
+					"default": "./fesm2020/spartacus-smartedit-core.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-smartedit-root.mjs",
+					"es2020": "./fesm2020/spartacus-smartedit-root.mjs",
+					"es2015": "./fesm2015/spartacus-smartedit-root.mjs",
+					"node": "./fesm2015/spartacus-smartedit-root.mjs",
+					"default": "./fesm2020/spartacus-smartedit-root.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "7849d3e55d49b76c09fa600bb24c48b058a13cc9",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/smartedit@6.5.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-1ZD1RyM3cUoFyV9WVStckdDmPKUWyYfvZs0vy2s99fHIa0nHGifYWkMniozMvo8Dzl4gxeAubHD7YUk+bcOulg==",
+				"shasum": "a8aae034d502657a748fb2ad62ed09fc8f84c485",
+				"tarball": "http://localhost:4873/@spartacus/smartedit/-/@spartacus/smartedit-6.5.0.tgz"
+			},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "@spartacus/smartedit",
+			"version": "6.8.0",
+			"description": "Smart Edit feature library for Spartacus",
+			"keywords": [
+				"spartacus",
+				"framework",
+				"storefront",
+				"smartedit"
+			],
+			"homepage": "https://github.com/SAP/spartacus",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/SAP/spartacus.git#develop"
+			},
+			"license": "Apache-2.0",
+			"dependencies": {
+				"tslib": "^2.6.2"
+			},
+			"peerDependencies": {
+				"@angular-devkit/schematics": "^15.2.9",
+				"@angular/common": "^15.2.9",
+				"@angular/core": "^15.2.9",
+				"@spartacus/core": "6.8.0",
+				"@spartacus/schematics": "6.8.0",
+				"rxjs": "^6.6.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"schematics": "./schematics/collection.json",
+			"module": "fesm2015/spartacus-smartedit.mjs",
+			"es2020": "fesm2020/spartacus-smartedit.mjs",
+			"esm2020": "esm2020/spartacus-smartedit.mjs",
+			"fesm2020": "fesm2020/spartacus-smartedit.mjs",
+			"fesm2015": "fesm2015/spartacus-smartedit.mjs",
+			"typings": "index.d.ts",
+			"exports": {
+				"./package.json": {
+					"default": "./package.json"
+				},
+				".": {
+					"types": "./index.d.ts",
+					"esm2020": "./esm2020/spartacus-smartedit.mjs",
+					"es2020": "./fesm2020/spartacus-smartedit.mjs",
+					"es2015": "./fesm2015/spartacus-smartedit.mjs",
+					"node": "./fesm2015/spartacus-smartedit.mjs",
+					"default": "./fesm2020/spartacus-smartedit.mjs"
+				},
+				"./core": {
+					"types": "./core/index.d.ts",
+					"esm2020": "./esm2020/core/spartacus-smartedit-core.mjs",
+					"es2020": "./fesm2020/spartacus-smartedit-core.mjs",
+					"es2015": "./fesm2015/spartacus-smartedit-core.mjs",
+					"node": "./fesm2015/spartacus-smartedit-core.mjs",
+					"default": "./fesm2020/spartacus-smartedit-core.mjs"
+				},
+				"./root": {
+					"types": "./root/index.d.ts",
+					"esm2020": "./esm2020/root/spartacus-smartedit-root.mjs",
+					"es2020": "./fesm2020/spartacus-smartedit-root.mjs",
+					"es2015": "./fesm2015/spartacus-smartedit-root.mjs",
+					"node": "./fesm2015/spartacus-smartedit-root.mjs",
+					"default": "./fesm2020/spartacus-smartedit-root.mjs"
+				}
+			},
+			"sideEffects": false,
+			"readmeFilename": "README.md",
+			"gitHead": "57f492f8802b918ea11c48414d87927e9373fe6f",
+			"bugs": {
+				"url": "https://github.com/SAP/spartacus/issues"
+			},
+			"_id": "@spartacus/smartedit@6.8.0",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-Kt0X0GKRG6GKHW2cViSFK3pbsFDKd5wweNjbJg+tAf4bfKbKInTm7v2vK9/3UZeGI4LLC3I9O8DmyigiNHvLEA==",
+				"shasum": "8ca56f71e3c4f070dbc9c4c7ff70de7a99f4b468",
+				"tarball": "http://localhost:4873/@spartacus/smartedit/-/@spartacus/smartedit-6.8.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-02-17T16:14:22.551Z",
+		"created": "2024-02-16T22:54:16.149Z",
+		"6.5.0": "2024-02-16T22:54:16.149Z",
+		"6.8.0": "2024-02-17T16:14:22.551Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.8.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"smartedit-6.5.0.tgz": {
+			"shasum": "a8aae034d502657a748fb2ad62ed09fc8f84c485",
+			"version": "6.5.0"
+		},
+		"smartedit-6.8.0.tgz": {
+			"shasum": "8ca56f71e3c4f070dbc9c4c7ff70de7a99f4b468",
+			"version": "6.8.0"
+		}
+	},
+	"_rev": "6-3b6f245239b58a22",
+	"_id": "@spartacus/smartedit",
+	"readme": "# Spartacus Smart Edit Library\n\nSpartacus Smart Edit can be added to the existing Spartacus application by running `ng add @spartacus/smartedit`. For more information about Spartacus schematics, visit the [official Spartacus schematics documentation page](https://sap.github.io/spartacus-docs/schematics/).\n\nIf you install smaredit library manually, after installation you also need to either copy the file `webApplicationInjector.js` from `node_modules/@spartacus/smartedit/asset` to your application's asset folder; or add this into \"assets\" array in your `angular.json`\n  ```ts\n    {\n      \"glob\": \"**/*\",\n      \"input\": \"node_modules/@spartacus/smartedit/assets\",\n      \"output\": \"assets/\"\n    }\n ```       \n\nFor more information, see [Spartacus](https://github.com/SAP/spartacus).\n"
+}
