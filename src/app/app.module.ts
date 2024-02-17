@@ -12,7 +12,7 @@ import { SpartacusModule } from './spartacus/spartacus.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule,
     AppRoutingModule,
     StoreModule.forRoot({}),

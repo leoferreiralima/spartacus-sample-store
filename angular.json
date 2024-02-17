@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sample-store",
+            "outputPath": "dist/sample-store/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -153,6 +153,71 @@
               ]
             }
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/sample-store/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json",
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/"
+              ]
+            },
+            "inlineStyleLanguage": "scss"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.development.ts"
+                }
+              ],
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "sample-store:build:development",
+              "serverTarget": "sample-store:server:development"
+            },
+            "production": {
+              "browserTarget": "sample-store:build:production",
+              "serverTarget": "sample-store:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "sample-store:build:production",
+              "serverTarget": "sample-store:server:production"
+            },
+            "development": {
+              "browserTarget": "sample-store:build:development",
+              "serverTarget": "sample-store:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
