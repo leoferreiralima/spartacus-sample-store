@@ -21,9 +21,10 @@ web:
 auth:
   htpasswd:
     file: ./htpasswd
-    # Maximum amount of users allowed to register, defaults to "+inf".
-    # You can set this to -1 to disable registration.
-    # max_users: 1000
+    # by default is crypt, but is recommended use bcrypt for new installations
+    algorithm: bcrypt
+    # Rounds number for "bcrypt", will be ignored for other algorithms.
+    rounds: 10
 
 # a list of other known repositories we can talk to
 uplinks:
