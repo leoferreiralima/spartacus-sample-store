@@ -36,6 +36,6 @@ After This you can run `npm run start` or `npm run dev:ssr` to start the project
 
 After run the project acces any of the following sites:
 
-- [Powertools (B2B)](http://localhost:9002/powertools-spa)
-- [Apparel UK (B2C)](http://localhost:9002/apparel-uk-spa)
-- [Electronics (B2C)](http://localhost:9002/electronics-spa)
+- [Powertools (B2B)](http://localhost:4200/powertools-spa)
+- [Apparel UK (B2C)](http://localhost:4200/apparel-uk-spa)
+- [Electronics (B2C)](http://localhost:4200/electronics-spa)
