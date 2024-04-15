@@ -6,6 +6,7 @@ import { StoreModule } from "@ngrx/store";
 import { AppRoutingModule } from "@spartacus/storefront";
 import { AppComponent } from './app.component';
 import { SpartacusModule } from './spartacus/spartacus.module';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,12 @@ import { SpartacusModule } from './spartacus/spartacus.module';
     AppRoutingModule,
     StoreModule.forRoot({}),
     EffectsModule.forRoot([]),
-    SpartacusModule
+    SpartacusModule,
+    StoreDevtoolsModule.instrument({
+      maxAge: 25, // Retains last 25 states,
+      trace: true,
+      traceLimit: 100
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

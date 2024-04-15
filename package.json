@@ -74,6 +74,7 @@
     "@angular-devkit/build-angular": "^15.2.10",
     "@angular/cli": "~15.2.10",
     "@angular/compiler-cli": "^15.2.0",
+    "@ngrx/store-devtools": "^15.4.0",
     "@nguniversal/builders": "^15.2.1",
     "@spartacus/schematics": "^6.8.0",
     "@types/express": "^4.17.0",
