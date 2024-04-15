@@ -30,7 +30,7 @@ The next step is intall the dependencies, open a new terminal and run the follow
 npm i
 ```
 
-After This you can run `npm run dev` or `npm run dev:ssr` to start the project
+After This you can run `npm run start` or `npm run dev:ssr` to start the project
 
 ## Sites
 
