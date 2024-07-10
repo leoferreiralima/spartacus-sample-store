@@ -30,6 +30,7 @@ import { ProductVariantsFeatureModule } from './features/product/product-variant
 import { ProductImageZoomFeatureModule } from './features/product/product-image-zoom-feature.module';
 import { PickupInStoreFeatureModule } from './features/pickup-in-store/pickup-in-store-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
+import { CustomProductCarouselModule } from './features/product/carousel/product-carousel/product-carousel.module';
 
 @NgModule({
   declarations: [],
@@ -73,6 +74,7 @@ import { AsmFeatureModule } from './features/asm/asm-feature.module';
     ProductFacetNavigationModule,
     ProductTabsModule,
     ProductCarouselModule,
+    CustomProductCarouselModule,
     ProductReferencesModule,
     ProductImagesModule,
     ProductSummaryModule,
