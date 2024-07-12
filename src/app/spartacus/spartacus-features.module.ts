@@ -30,7 +30,7 @@ import { ProductVariantsFeatureModule } from './features/product/product-variant
 import { ProductImageZoomFeatureModule } from './features/product/product-image-zoom-feature.module';
 import { PickupInStoreFeatureModule } from './features/pickup-in-store/pickup-in-store-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
-import { CustomProductCarouselModule } from './features/product/carousel/product-carousel/product-carousel.module';
+import { ProductCustomFeatureModule } from './features/product/product-custom-feature.module';
 
 @NgModule({
   declarations: [],
@@ -74,7 +74,6 @@ import { CustomProductCarouselModule } from './features/product/carousel/product
     ProductFacetNavigationModule,
     ProductTabsModule,
     ProductCarouselModule,
-    CustomProductCarouselModule,
     ProductReferencesModule,
     ProductImagesModule,
     ProductSummaryModule,
@@ -112,7 +111,9 @@ import { CustomProductCarouselModule } from './features/product/carousel/product
     ProductVariantsFeatureModule,
     ProductImageZoomFeatureModule,
     PickupInStoreFeatureModule,
-    AsmFeatureModule
+    AsmFeatureModule,
+
+    ProductCustomFeatureModule
   ]
 })
 export class SpartacusFeaturesModule { }

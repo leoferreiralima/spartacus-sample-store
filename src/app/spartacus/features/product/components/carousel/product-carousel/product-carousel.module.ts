@@ -6,8 +6,7 @@ import { CustomProductCarouselComponent } from "./product-carousel.component";
 import { RouterModule } from "@angular/router";
 
 @NgModule({
-  declarations:[CustomProductCarouselComponent],
-  imports:[
+  imports: [
     CommonModule,
     CarouselModule,
     MediaModule,
@@ -23,6 +22,8 @@ import { RouterModule } from "@angular/router";
         },
       },
     } as CmsConfig)
-  ]
+  ],
+  declarations: [CustomProductCarouselComponent],
+  exports: [CustomProductCarouselComponent],
 })
-export class CustomProductCarouselModule {}
+export class ProductCustomCarouselModule { }
